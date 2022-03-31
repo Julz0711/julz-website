@@ -1,0 +1,248 @@
+.pj_container {
+    gap: 64px;
+}
+
+.pj_wrapper {
+    max-height: 500px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-decoration: none;
+    background: #000;
+    box-shadow: 0px 0px 20px -20px rgba(1, 1, 1, 1);
+    transition: 0.25s;
+}
+
+.pj_wrapper:hover {
+    box-shadow: 0px 30px 40px -40px var(--color-primary);
+    transition: 0.25s;
+}
+
+.pj_wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity .25s ease-in;
+}
+
+.pj_wrapper img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.pj_desc {
+    opacity: 0;
+    position: relative;
+    padding: 16px;
+    padding-left: 24px;
+    font-size: 1rem;
+    transition: 0.25s ease-in;
+    color: #f5f5f5;
+    pointer-events: none;
+}
+
+.pj_desc h3 {
+    font-family: 'Xhers', sans-serif;
+}
+
+.pj_active {
+    opacity: 1;
+    transform: translateY(-120px);
+}
+
+.pj_active2 {
+    opacity: 1;
+    transform: translateY(-96px);
+}
+
+.modal-content {
+    background: var(--color-two);
+}
+
+.btn-close {
+    color: var(--color-one)
+}
+
+
+/* Modals */
+
+.modal-content {
+    border: 2px solid var(--color-one);
+    border-radius: 0px;
+}
+
+.modal-header {
+    font-size: 2.5rem;
+    font-family: 'Xhers', sans-serif;
+    background: var(--color-primary);
+    border-bottom: 2px solid var(--color-one);
+    border-radius: 0px;
+}
+
+.modal-body p {
+    z-index: 10000;
+}
+
+.modal-title {
+    font-size: 2.5rem;
+    padding: 0 16px;
+}
+
+.modal-body {
+    padding: 32px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.pj_subheader {
+    font-family: 'Xhers', sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    filter: brightness(50%);
+    margin-bottom: 16px;
+}
+
+.pj_img img {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+    width: 100%;
+    cursor: auto;
+    box-shadow: var(--shadow);
+}
+
+.pj_img_zoom img {
+    cursor: zoom-in;
+    transition: transform 0.25s ease;
+    background: var(--color-two);
+    box-shadow: var(--shadow);
+}
+
+.img_desc {
+    transform: translateY(-12px);
+    font-size: .8rem;
+}
+
+.bg-light {
+    background: var(--color-one);
+    padding: 32px;
+}
+
+.pj_video_container {
+    justify-content: center;
+    margin: 32px 0;
+    display: table;
+    width: auto;
+    height: 100%;
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.pj_video {
+    width: 100%;
+    height: auto;
+    filter: brightness(20%);
+    transition: 0.5s;
+}
+
+.playpause {
+    background-image: url(../img/SVG/pause3.svg);
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+.pj_img_zoom input[type=checkbox] {
+    display: none;
+}
+
+.pj_img_zoom .cl:checked~img {
+    transform: scale(1.5) translateX(120px);
+    cursor: zoom-out;
+    box-shadow: 0 0 100px 100px #000;
+}
+
+.pj_img_zoom .cr:checked~img {
+    transform: scale(1.5) translateX(-120px);
+    cursor: zoom-out;
+    box-shadow: 0 0 100px 100px #000;
+}
+
+.pj_img_zoom .cm:checked~img {
+    transform: scale(1.5) translateX(0px);
+    cursor: zoom-out;
+    box-shadow: 0 0 100px 100px #000;
+}
+
+
+/* pj nav */
+
+.pj_menu {
+    background-color: var(--color-two);
+    padding: 32px;
+    border-bottom: 2px solid var(--color-one);
+}
+
+.pj_menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: var(--color-two);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.pj_menu ul li {
+    list-style: none;
+}
+
+.pj_menu ul li a {
+    font-family: 'Xhers', sans-serif;
+    color: var(--color-one);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+.pj_menu ul li a:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+
+/* PJ3*/
+
+.pj3_content {
+    padding-top: 50px;
+}
+
+@media all and (max-width: 1200px) {
+    .pj_img_zoom .cl:checked~img {
+        transform: scale(1.2) translateX(0);
+    }
+    .pj_img_zoom .cr:checked~img {
+        transform: scale(1.2) translateX(0);
+    }
+}
+
+@media all and (max-width: 990px) {
+    .pj_img img {
+        padding: 4px;
+    }
+    .pj_menu ul li a {
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,25 @@
+.intro_header {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro_header h1 {
+    font-weight: 900;
+}
+
+#intro {
+    height: 500vh;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    object-fit: cover;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 100vw;
+    min-height: 100vh;
+}

@@ -1,0 +1,40 @@
+General
+In my third Semester of studying we were given the task to create a Coorperate Design, as well as a Website for
+a fictional Company that we had to create. This company had to be in the healthcare industry.
+We completed this project in a group of three. The following images will be in german.
+
+
+Prototyping
+The first steps were to gather some design criterias, so we know in which direction we wanted to go with
+the project. We came up with squadUP, an App for freetime teambuilding for all kinds of sports.
+So that if you would like to play for example football, but you don't have any people to play with, 
+it's still possible to find team mates to meet up. 
+Then we thought about key features, as well as the health aspects our product gives. It can boost your physical
+health, because of more motivation through team mates and bonuses given by squadUP for using the app. But it 
+can also help the mental health for people that are for example to shy to just go the sport court and connect 
+with people via an app.
+
+We then created a moodboard, to visualize colors, forms, images and fonts to get an even better idea of our vision. 
+Along the work we made different tweeks to colors and fonts, but the basics of the moodboard helped a lot through
+the project.
+
+Another significant step of prototyping was the creation of our Persona. Our ideal user so to say. This was also a 
+lot of fun to do.
+
+The final part of creating the prototyp was making Wireframes and Gridlayouts to be ready to get to coding.
+Now had all the infos and templates we needed to get started.
+
+
+Logo
+The Logo as a very important aspect of every Coorporate identity, so we had a fitting but also easy to remember
+design for squadUP. We decided to go with a striking arrow that allows replaces the letter 'A' in squad.
+
+
+Implementation
+With all the given design criterias we were now ready to realize. The Website is a one-pager with all the 
+important informations about squadUP. A contact form as well as a register form are accessable via the navigation
+bar. We did not use any frameworks like React or Angular but vanilla html, css, javascript and php instead. We needed
+php for login and register validations (so we also needed a database).
+
+
+Result

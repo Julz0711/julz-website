@@ -1,0 +1,400 @@
+/* Info Section */
+
+.am_wrapper {
+    border: 2px solid var(--color-primary);
+    border-radius: 0px;
+    margin: 0;
+    padding: 64px;
+    box-shadow: var(--shadow-prim-glow);
+}
+
+.am_ul {
+    font-weight: 500;
+}
+
+.am_wrapper h3 {
+    margin-bottom: 48px;
+}
+
+.am_img {
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+    display: flex;
+    margin: auto;
+}
+
+.container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container ul li {
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-family: 'Share Tech Mono', sans-serif;
+}
+
+.am_label {
+    font-size: 0.9rem;
+    font-family: 'Xhers', sans-serif;
+}
+
+.am_infos {
+    padding: 16px;
+}
+
+.reveal {
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.reveal.fade-in {
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+
+
+/* Time Line Section */
+
+.timeLine_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.infoLeft {
+    width: 40%;
+    text-align: right;
+}
+
+.infoRight {
+    width: 40%;
+    text-align: left;
+}
+
+.bar_wrapper {
+    width: 32px;
+}
+
+.empty {
+    width: 40%;
+}
+
+.bar {
+    width: 100%;
+}
+
+.barSchool {
+    height: 100%;
+    background: var(--color-primary);
+    box-shadow: 0 0px 50px 00px rgba(0, 0, 0, 1);
+}
+
+.barEducation {
+    height: 100%;
+    background: var(--color-secondary);
+    box-shadow: 0 0px 50px 00px rgba(0, 0, 0, 1);
+}
+
+.barWork {
+    height: 100%;
+    background: var(--color-one);
+    box-shadow: 0 0px 50px 00px rgba(0, 0, 0, 1);
+}
+
+.barArrow {
+    content: " ";
+    border-top: 96px solid var(--color-one);
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+    position: relative;
+    transform: translate(-33px, -1px);
+}
+
+.barArrowBehind {
+    content: " ";
+    border-top: 96px solid rgb(0, 0, 0);
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+    position: relative;
+    top: -96px;
+    left: -33px;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.timeLine_wrapper h3 {
+    font-weight: 900;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+table td {
+    border: 0;
+    font-size: 1.2rem;
+}
+
+.td_small {
+    font-size: 1rem;
+}
+
+.italic {
+    font-style: italic;
+    filter: brightness(50%);
+    font-size: 1rem;
+    font-family: 'Xhers', sans-serif;
+}
+
+
+/* Skill Section */
+
+#reveal2 {
+    margin-bottom: 128px;
+}
+
+#reveal2 h5 {
+    padding: 4px 0;
+    padding-bottom: 16px;
+}
+
+.bg_img {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.3;
+    object-fit: cover;
+}
+
+.am_skills {
+    padding: 8px 0;
+    width: 100%;
+    position: relative;
+}
+
+.progress_info {
+    font-family: 'Xhers', sans-serif;
+    font-size: 1rem;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.progress {
+    box-shadow: inset 6px 6px 0px var(--color-two), var(--shadow-prim-glow);
+    height: 40px;
+    background: rgba(0, 0, 0, 0.0);
+    border: 2px solid var(--color-primary);
+    border-radius: 0;
+}
+
+.progress-value {
+    background: var(--color-primary);
+    height: 30px;
+    z-index: -1;
+    transform: skew(-45deg) translateX(-15px);
+}
+
+.progress-value.val1 {
+    animation: load1 3s normal forwards;
+}
+
+.progress-value.val2 {
+    animation: load2 3s normal forwards;
+}
+
+.progress-value.val3 {
+    animation: load3 3s normal forwards;
+}
+
+.progress-value.val4 {
+    animation: load4 3s normal forwards;
+}
+
+.progress-value.val5 {
+    animation: load5 3s normal forwards;
+}
+
+.progress-value.val6 {
+    animation: load6 3s normal forwards;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes load5 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes load6 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+hr {
+    color: var(--color-secondary);
+    margin: 128px 0;
+}
+
+.hobby_container {
+    gap: 32px;
+}
+
+.hobby_wrapper {
+    min-width: 230px;
+    max-width: 400px;
+    background: var(--color-two);
+    border: 2px solid var(--color-primary);
+    color: var(--color-two);
+    transition: .5s;
+    font-weight: 700;
+    box-shadow: var(--shadow-prim-glow);
+}
+
+.hobby_wrapper div {
+    margin: 32px 16px;
+}
+
+.hobby_img,
+.hobby_desc {
+    text-align: center;
+    color: var(--color-one);
+}
+
+
+/* Parralax */
+
+.myParallaxParent {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.myParallaxParent>* {
+    height: 1000px;
+    position: relative;
+    top: -100%;
+}
+
+#prlx1 {
+    background-image: url("../img/keyboard.jpg");
+    opacity: 0.5;
+}
+
+#prlx2 {
+    background-image: url("../img/parralax2.jpg");
+    opacity: 0.5;
+}
+
+.parallaxImg {
+    background-size: cover;
+}
+
+@media all and (max-width: 1200px) {
+    .am_ul {
+        text-align: center;
+    }
+    .am_infos {
+        margin-top: 64px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .timeLine_wrapper {
+        gap: 32px;
+    }
+    .bar_wrapper {
+        order: 1;
+    }
+    .infoLeft {
+        order: 2;
+        text-align: left;
+        width: 80%;
+    }
+    .infoRight {
+        order: 2;
+        width: 80%;
+    }
+    .empty {
+        width: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container ul li {
+        margin-bottom: 16px;
+    }
+    .am_infos {
+        margin-top: 64px;
+    }
+    .am_img {
+        padding: 32px;
+    }
+    .progress_info {
+        font-size: 1rem;
+    }
+    .am_wrapper {
+        padding: 32px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container ul li {
+        font-size: 1rem;
+    }
+    .am_label {
+        font-size: 0.8rem;
+    }
+    .am_img {
+        padding: 20px;
+    }
+}

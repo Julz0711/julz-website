@@ -1,0 +1,172 @@
+/* Nav */
+
+.nav {
+    position: fixed;
+    left: 0px;
+    bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.myFa {
+    display: none;
+}
+
+.nav a {
+    color: var(--color-one);
+    border-radius: 0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: .2s;
+    padding: 0px 32px 0px 48px;
+    font-family: 'Xhers', sans-serif;
+}
+
+.nav a:hover {
+    font-size: 1.5rem;
+    color: var(--color-two);
+    background: var(--color-secondary);
+    border-radius: 0;
+    padding: 0px 32px 0px 48px;
+    transition: .2s;
+}
+
+
+/* Theme */
+
+.modeToggler {
+    position: fixed;
+    right: 48px;
+    bottom: 96px;
+    z-index: 1;
+}
+
+.radios {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.modeP {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Xhers', sans-serif;
+}
+
+input[type="radio"] {
+    appearance: none;
+    background-color: var(--color-two);
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--color-one);
+    border-radius: 0;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.form-control+.form-control {
+    margin-top: 1em;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 0;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--color-primary);
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+
+/* Description */
+
+label[title] {
+    margin-top: 8px;
+    font-family: 'Xhers', sans-serif;
+}
+
+label[title]:hover:after {
+    content: attr(title);
+    position: absolute;
+    font-size: 1rem;
+    text-align: right;
+    transform: translate(-50px, -29px);
+}
+
+@media all and (max-width: 1200px) {
+    /* Nav */
+    .nav {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: var(--color-two);
+        height: 100px;
+        border-top: 2px solid var(--color-one);
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .myFa {
+        display: block;
+    }
+    .nav a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-one);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.25rem;
+        transition: .2s;
+        padding: 0;
+        width: 100px;
+    }
+    .nav a:hover {
+        font-size: 1.25rem;
+        padding: 0;
+        background: none;
+        color: var(--color-primary)
+    }
+    /* Theme */
+    .modeToggler {
+        padding: 48px 16px 16px 16px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: auto;
+        background: var(--color-two);
+        border-bottom: 2px solid var(--color-one);
+    }
+    .radios {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 0 16px;
+        margin: 0;
+        padding: 0;
+    }
+    label[title] {
+        margin-top: 0;
+    }
+    label[title]:hover:after {
+        content: '';
+    }
+}

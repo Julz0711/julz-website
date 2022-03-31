@@ -1,0 +1,1 @@
+localStorage.setItem('isMode1', true);
