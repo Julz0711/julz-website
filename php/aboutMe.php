@@ -162,20 +162,6 @@
     <div class="mySpacer64"></div>
 
 
-    <!-- Skills -->
-    <div class="row justify-content-center align-items-center ">
-        <div class="col-md-5 mt-5" id="reveal2">
-            <p class="myHeader5">Design & Research Skills:</p>
-            <div class="am_skills">
-                <p> - Persona and User Archetype</p>
-                <p> - Prototyping</p>
-                <p> - 3D Modelling and Rendering</p>
-                <p> - Usabilty Testing</p>
-                <p> - User Experience Design</p>
-            </div>
-        </div>
-    </div>
-
 
     <!-- Tools -->
     <div class="row justify-content-center align-items-center mt-5" id="reveal3">
@@ -224,6 +210,20 @@
 
     <div class="mySpacer128"></div>
 
+
+    <!-- Skills -->
+    <div class="col-md-5 mt-5" id="reveal2">
+        <p class="myHeader5">I can bring to the table:</p>
+        <div class="am_skills">
+            <p> - Persona and User Archetype</p>
+            <p> - Prototyping</p>
+            <p> - 3D Modelling and Rendering</p>
+            <p> - Usabilty Testing</p>
+            <p> - User Experience Design</p>
+        </div>
+    </div>
+
+    <div class="mySpacer128"></div>
 
     <!-- Hobbys -->
     <div class="hobby_container row justify-content-around" id="reveal4">

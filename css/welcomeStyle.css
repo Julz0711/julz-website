@@ -3,23 +3,14 @@
     width: 100%;
 }
 
-
-/*
-#wlc-content {}
-
-.bgSticky {}
-
-.viewer {
-    transform: translateY(-30vh) scale(.3);
-    height: 100%;
-    margin: 0 auto;
-    max-width: 1500px;
-    width: 100%;
-    background-image: url(../img/sprites/julz-spriteHQ.png);
-    background-repeat: no-repeat;
-    background-position: 0 50%;
+.wlc-h2 {
+    position: relative;
+    font-size: 2rem;
+    font-family: 'Xhers', Arial, Helvetica, sans-serif sans-serif;
+    padding-left: 20vw;
+    top: 50vh;
+    transform: translateY(-50%);
 }
-*/
 
 .wlc-h {
     position: relative;
@@ -50,23 +41,4 @@
     padding: 1vw;
     margin-left: 1vw;
     background: rgb(190, 190, 190);
-}
-
-.trees {
-    width: 100%;
-    min-width: 800px;
-    height: auto;
-    left: 0;
-    bottom: 0;
-    z-index: 100000;
-}
-
-#star_canvas {
-    background-color: #191970;
-    height: 100%;
-    position: fixed;
-}
-
-#star_canvas .stars {
-    position: absolute;
 }

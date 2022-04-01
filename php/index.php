@@ -22,9 +22,9 @@
     <div id="main">
 
         <!-- About Me -->
-        <section class="panel" id="aboutMe">
+        <div class="panel" id="aboutMe">
             <?php include "aboutMe.php"; ?>
-        </section>
+        </div>
         <!-- 
         <div id="parallax1" class="myParallaxParent">
             <div id="prlx1" class="parallaxImg"></div>

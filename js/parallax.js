@@ -12,9 +12,9 @@ function initCanvas(section, canvas) {
     canvas.width = 2000;
     canvas.height = 1000;
 
-    let frameCount = 55;
+    let frameCount = 54;
     const currentFrame = index => (
-        `../img/imgSeq2/${index.toString().padStart(4, '0')}.png`
+        `../img/imgSeq2/${(index + 1).toString().padStart(4, '0')}.png`
     );
 
     let images = []

@@ -4,7 +4,7 @@
     --color-one: '';
     --color-two: '';
     --gradient: linear-gradient(60deg, var(--color-secondary), var(--color-one));
-    --shadow: 0 -2px 50px 10px rgba(0, 0, 0, 1);
+    --shadow: 0 -2px 50px 10px #121212;
     --shadow-prim: 0 -2px 50px 10px var(--color-primary);
     --shadow-prim-glow: var(--color-primary) 0px 0 20px -5px, var(--color-primary) 0px 5px 10px -20px;
 }
@@ -15,7 +15,7 @@ html {
 
 #body {
     font-family: 'Share Tech Mono', sans-serif;
-    background-color: var(--color-two);
+    background: var(--color-two);
     color: var(--color-one);
     height: 100%;
 }
@@ -33,8 +33,12 @@ html {
     background-size: cover;
 }
 
+#main {
+    transform: translateY(-50px);
+}
+
 #aboutMe {
-    background: #000;
+    background: var(--color-two);
 }
 
 #contact {

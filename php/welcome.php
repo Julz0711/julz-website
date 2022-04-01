@@ -1,3 +1,4 @@
+<p class="wlc-h2"></p>
 <div class="welcome_container" id="wlc-pin">
     <p class="wlc-h">
         <span class="wlc-box"></span>
