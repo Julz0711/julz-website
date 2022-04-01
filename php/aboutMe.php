@@ -1,4 +1,4 @@
-<div class="container mx-auto mt-5 mb-5 myContainer" id="smAboutMe">
+<div class="container mx-auto mb-5 myContainer" id="smAboutMe">
     <h1 class="mb-5">About Me</h1>
 
     <p class="col-md-10 myHeader5">
@@ -218,12 +218,6 @@
             <div class="progress-striped"></div>
             <div class="progress">
                 <div class="progress-value" id="progbar6"></div>
-            </div>
-        </div>
-        <div class="am_skills">
-            <div class="progress2 progress-striped">
-                <div class="progress-bar val1">
-                </div>
             </div>
         </div>
     </div>

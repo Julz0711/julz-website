@@ -8,7 +8,7 @@ function mode3() {
     if (localStorage.getItem('isMode3') === 'true') {
         document.documentElement.style.setProperty('--color-primary', '#979796');
         document.documentElement.style.setProperty('--color-secondary', '#514F50');
-        document.documentElement.style.setProperty('--color-two', '#121212');
+        document.documentElement.style.setProperty('--color-two', '#0a0a0a');
         document.documentElement.style.setProperty('--color-one', '#FFFFFF');
         $(".activeMode").css("display", "flex");
         $(".modeChooser").css("display", "none");
@@ -20,7 +20,7 @@ function mode3() {
 if (localStorage.getItem('isMode3') === 'true') {
     document.documentElement.style.setProperty('--color-primary', '#979796');
     document.documentElement.style.setProperty('--color-secondary', '#514F50');
-    document.documentElement.style.setProperty('--color-two', '#121212');
+    document.documentElement.style.setProperty('--color-two', '#000000');
     document.documentElement.style.setProperty('--color-one', '#FFFFFF');
     $(".activeMode").css("display", "flex");
     $(".modeChooser").css("display", "none");

@@ -188,41 +188,41 @@ table td {
 }
 
 .progress {
-    box-shadow: inset 6px 6px 0px var(--color-two), var(--shadow-prim-glow);
+    box-shadow: inset 6px 6px 0px #000, var(--shadow-prim-glow);
     height: 40px;
     background: rgba(0, 0, 0, 0.0);
     border: 2px solid var(--color-primary);
     border-radius: 0;
 }
 
-.progress-value {
+.progress .progress-value {
     background: var(--color-primary);
     height: 30px;
     z-index: -1;
     transform: skew(-45deg) translateX(-15px);
 }
 
-.progress-value.val1 {
+.progress .progress-value.val1 {
     animation: load1 3s normal forwards;
 }
 
-.progress-value.val2 {
+.progress .progress-value.val2 {
     animation: load2 3s normal forwards;
 }
 
-.progress-value.val3 {
+.progress .progress-value.val3 {
     animation: load3 3s normal forwards;
 }
 
-.progress-value.val4 {
+.progress .progress-value.val4 {
     animation: load4 3s normal forwards;
 }
 
-.progress-value.val5 {
+.progress .progress-value.val5 {
     animation: load5 3s normal forwards;
 }
 
-.progress-value.val6 {
+.progress .progress-value.val6 {
     animation: load6 3s normal forwards;
 }
 

@@ -1,79 +1,62 @@
-// init controller
-var controller = new ScrollMagic.Controller({ globalSceneOptions: { triggerHook: "onEnter", duration: "150%" } });
-var controllerIntro = new ScrollMagic.Controller();
+gsap.registerPlugin(ScrollTrigger);
 
-// build scenes
-new ScrollMagic.Scene({ triggerElement: "#parallax1" })
-    .setTween("#parallax1 > div", { y: "80%", ease: Linear.easeNone })
-    .addIndicators()
-    .addTo(controller);
+let sections = gsap.utils.toArray("section");
 
-new ScrollMagic.Scene({ triggerElement: "#parallax2" })
-    .setTween("#parallax2 > div", { y: "80%", ease: Linear.easeNone })
-    .addIndicators()
-    .addTo(controller);
+sections.forEach(section => {
+    let canvas = section.querySelector("canvas");
+    canvas ? initCanvas(section, canvas) : initOther(section);
+});
 
-new ScrollMagic.Scene({ triggerElement: "#parallax3" })
-    .setTween("#parallax3 > div", { y: "80%", ease: Linear.easeNone })
-    .addIndicators()
-    .addTo(controller);
+function initCanvas(section, canvas) {
+    let context = canvas.getContext("2d");
+    canvas.width = 2000;
+    canvas.height = 1000;
 
+    let frameCount = 55;
+    const currentFrame = index => (
+        `../img/imgSeq2/${index.toString().padStart(4, '0')}.png`
+    );
 
-var scene = new ScrollMagic.Scene({
-        triggerElement: "#pinTrigger",
-        triggerHook: 100,
-        duration: $('#intro').height(),
-    })
-    .setPin("#pin1")
-    .addIndicators() // add indicators (requires plugin)
-    .addTo(controllerIntro);
+    let images = []
+    let ship = {
+        frame: 0
+    };
 
-
-//Image Sequence
-
-const html = document.documentElement;
-const intro = document.querySelector('#intro');
-const canvas = document.getElementById('img-seq');
-const context = canvas.getContext('2d');
-
-const frameCount = 240;
-const currentFrame = index => (
-    `../img/imgSeq2/${index.toString().padStart(4, '0')}.jpg`
-)
-
-const preloadImages = () => {
-    for (let i = 1; i < frameCount; i++) {
-        const img = new Image();
+    for (let i = 0; i < frameCount; i++) {
+        let img = new Image();
         img.src = currentFrame(i);
+        images.push(img);
+    }
+
+    gsap.timeline({
+            onUpdate: render,
+            scrollTrigger: {
+                trigger: section,
+                pin: true,
+                scrub: 0.5,
+                end: "+=200%",
+                markers: true
+            }
+        })
+        .to(ship, {
+            frame: frameCount - 1,
+            snap: "frame",
+            ease: "none",
+            duration: 1
+        }, 0);
+
+    images[0].onload = render;
+
+    function render() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(images[ship.frame], 0, 0);
     }
 }
 
-const img = new Image();
-img.src = currentFrame(1);
-canvas.width = 2453;
-canvas.height = 1440;
-img.onload = function() {
-    context.drawImage(img, 0, 0);
+function initOther(section) {
+    ScrollTrigger.create({
+        trigger: section,
+        pin: true,
+        end: '+=200%'
+    });
 }
-
-const updateImage = index => {
-    img.src = currentFrame(index);
-    context.drawImage(img, 0, 0);
-}
-
-window.addEventListener('scroll', () => {
-    const scrollTop = html.scrollTop;
-    const maxScrollTop = html.scrollHeight - window.innerHeight;
-    const scrollFraction = scrollTop / maxScrollTop;
-    const frameIndex = Math.min(
-        frameCount - 1,
-        Math.ceil(scrollFraction * frameCount)
-    );
-
-    //context.clearRect(0, 0, canvas.width, canvas.height);
-    requestAnimationFrame(() => updateImage(frameIndex + 1));
-});
-
-preloadImages()
-
-console.log(index.toString().padStart(4, '0'))

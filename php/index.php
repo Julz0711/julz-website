@@ -6,14 +6,11 @@
 </head>
 
 <body id="body">
-    <!-- Intro -->
-    <div id="intro">
-        <?php include "intro.php"; ?>
-    </div>
 
     <!-- Welcome -->
     <div id="welcome">
         <?php include "welcome.php"; ?>
+        <?php include "intro.php"; ?>
     </div>
 
     <!-- Navigation -->
@@ -28,24 +25,24 @@
         <section class="panel" id="aboutMe">
             <?php include "aboutMe.php"; ?>
         </section>
-<!-- 
+        <!-- 
         <div id="parallax1" class="myParallaxParent">
             <div id="prlx1" class="parallaxImg"></div>
         </div> -->
 
         <!-- Projects -->
-        <section class="panel" id="projects">
+        <div class="panel" id="projects">
             <?php include "projects.php"; ?>
-        </section>
-<!-- 
+        </div>
+        <!-- 
         <div id="parallax2" class="myParallaxParent">
             <div id="prlx2" class="parallaxImg"></div>
         </div> -->
 
         <!-- Contact -->
-        <section class="panel" id="contact">
+        <div class="panel" id="contact">
             <?php include "contact.php"; ?>
-        </section>
+        </div>
 
     </div>
 

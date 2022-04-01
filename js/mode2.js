@@ -9,7 +9,7 @@ function mode2() {
     if (localStorage.getItem('isMode2') === 'true') {
         document.documentElement.style.setProperty('--color-primary', '#CC1F1D');
         document.documentElement.style.setProperty('--color-secondary', '#0183ff');
-        document.documentElement.style.setProperty('--color-two', '#121212');
+        document.documentElement.style.setProperty('--color-two', '#000000');
         document.documentElement.style.setProperty('--color-one', '#FFFFFF');
         $("#mode2").prop("checked", true);
     }
@@ -19,7 +19,7 @@ function mode2() {
 if (localStorage.getItem('isMode2') === 'true') {
     document.documentElement.style.setProperty('--color-primary', '#CC1F1D');
     document.documentElement.style.setProperty('--color-secondary', '#0183ff');
-    document.documentElement.style.setProperty('--color-two', '#121212');
+    document.documentElement.style.setProperty('--color-two', '#000000');
     document.documentElement.style.setProperty('--color-one', '#FFFFFF');
     $("#mode2").prop("checked", true);
 }

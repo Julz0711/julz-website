@@ -9,7 +9,6 @@
     </video>
 </div>
 -->
-<div id="pinTrigger" class="spacer s0"></div>
-<div class="" id="pin1">
-    <canvas id="img-seq"></canvas>
-</div>
+<section class="intro-section" id="spaceship">
+    <canvas></canvas>
+</section>

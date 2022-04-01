@@ -33,6 +33,10 @@ html {
     background-size: cover;
 }
 
+#aboutMe {
+    background: #000;
+}
+
 #contact {
     font-size: 1.2rem;
 }
