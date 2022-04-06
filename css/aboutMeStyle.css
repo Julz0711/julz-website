@@ -36,7 +36,7 @@
 }
 
 .am_label {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-family: 'Xhers', sans-serif;
 }
 
@@ -89,19 +89,37 @@
 .barSchool {
     height: 100%;
     background: var(--color-primary);
-    box-shadow: 0 0px 10px 00px #121212;
 }
 
 .barEducation {
     height: 100%;
     background: var(--color-secondary);
-    box-shadow: 0 0px 10px 00px #121212;
 }
 
 .barWork {
     height: 100%;
     background: var(--color-one);
-    box-shadow: 0 0px 10px 00px #121212;
+}
+
+.barBehind {
+    width: calc(100% - 2px);
+    height: 100%;
+    position: relative;
+    transform: translate(-50%, -100%);
+    filter: blur(5px);
+    left: 50%;
+}
+
+.behindSchool {
+    background: var(--color-primary);
+}
+
+.behindEducation {
+    background: var(--color-secondary);
+}
+
+.behindWork {
+    background: var(--color-one);
 }
 
 .barArrow {
@@ -115,49 +133,59 @@
 
 .barArrowBehind {
     content: " ";
-    border-top: 96px solid #121212;
+    border-top: 96px solid var(--color-one);
     border-left: 48px solid transparent;
     border-right: 48px solid transparent;
     position: relative;
-    top: -96px;
+    top: -97px;
     left: -33px;
-    filter: blur(10px);
-    z-index: -1;
+    filter: blur(5px);
 }
 
 .timeLine_wrapper h3 {
     font-weight: 900;
-    margin-top: 32px;
+    margin-top: 64px;
     margin-bottom: 32px;
 }
 
 table {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 64px;
 }
 
 table td {
     border: 0;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
 }
 
 .td_small {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .italic {
     font-style: italic;
     filter: brightness(50%);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'Xhers', sans-serif;
 }
 
 
 /* Skill Section */
 
+#reveal2 {
+    width: 100%;
+}
+
 #reveal2 h5 {
     padding: 4px 0;
     padding-bottom: 16px;
+}
+
+.box2 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
 }
 
 .bg_img {
@@ -178,7 +206,7 @@ table td {
 
 .progress_info {
     font-family: 'Xhers', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-left: 8px;
     margin-bottom: 4px;
 }
@@ -277,9 +305,21 @@ table td {
     }
 }
 
-hr {
-    color: var(--color-secondary);
-    margin: 128px 0;
+.am_box {
+    color: var(--color-two);
+    font-family: 'Xhers', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 16px;
+    border: 2px solid var(--color-primary);
+    background: var(--color-primary);
+    box-shadow: var(--shadow-prim-glow);
+    margin: 0 0 32px 0;
+}
+
+.dash {
+    border: 1px solid var(--color-one);
 }
 
 .hobby_container {

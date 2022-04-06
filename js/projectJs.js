@@ -32,3 +32,31 @@ $('.pj_video').parent().click(function() {
         $(this).children(".playpause").fadeIn();
     }
 });
+
+
+//inside-modal
+
+const modal = document.querySelector('.inside-modal');
+const previews = document.querySelectorAll('.gallery img');
+const original = document.querySelector('.full-img');
+const caption = document.querySelector('.img-caption');
+
+previews.forEach(preview => {
+    preview.addEventListener('click', () => {
+        modal.classList.add('open');
+        original.classList.add('open');
+
+        //Dynamic img/text switch
+        const originalSrc = preview.getAttribute('data-original');
+        original.src = originalSrc;
+        const altText = preview.getAttribute('alt');
+        caption.textContent = altText;
+    });
+});
+
+modal.addEventListener('click', (e) => {
+    if (e.target.classList.contains('inside-modal')) {
+        modal.classList.remove('open');
+        original.classList.remove('open');
+    };
+});

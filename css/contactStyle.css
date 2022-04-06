@@ -49,3 +49,33 @@ input:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px var(--color-two) inset !important;
     -webkit-text-fill-color: var(--color-one);
 }
+
+
+/* Contact Post */
+
+#contactPost {
+    background-image: url(../img/stars.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact-post-content {
+    height: calc(100vh - 66px);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-success {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.post-success p {
+    font-size: 1.6rem;
+    text-align: left;
+    padding-bottom: 32px;
+}

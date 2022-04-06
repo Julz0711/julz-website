@@ -31,7 +31,7 @@ function initCanvas(section, canvas) {
     gsap.timeline({
             onUpdate: render,
             scrollTrigger: {
-                trigger: section,
+                trigger: 'section',
                 pin: true,
                 scrub: 0.5,
                 end: "+=200%",

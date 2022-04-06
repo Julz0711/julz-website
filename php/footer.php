@@ -7,6 +7,6 @@
         </div>
 
         <p><i class="fa fa-copyright"></i> Copyright Julian Gutknecht 2022</p>
-        <a class="link" href="../html/Impressum.html">Impressum</a>
+        <a class="link" href="../php/disclaimer.php">Disclaimer</a>
     </div>
 </div>

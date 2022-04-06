@@ -1,11 +1,11 @@
 <div class="container mx-auto mb-5 myContainer" id="smAboutMe">
     <h1 class="mb-5">About Me</h1>
 
-    <p class="col-md-10 myHeader5">
-        Hello, people call me Julz, I am 23 years old and study Visual Computing and Design
+
+    <p class="col-md-10 myHeader6">
+        Hello, my name is Julian 'Julz' Gutknecht, I am 23 years old and study Visual Computing and Design
         at the University of Hamm-Lippstadt. Currently I am in the 4th Semester.
     </p>
-    <div class="mySpacer64"></div>
     <!-- Info -->
     <div class="row am_wrapper justify-content-center align-items-center" id="reveal1">
         <div class="col-xl-7">
@@ -21,7 +21,7 @@
                 <label for="li-3" class="am_label mt-2 italic">Phone Mumber:</label>
                 <li id="li-3">+49 172 3252639</li>
                 <label for="li-5" class="am_label mt-2 italic">E-Mail:</label>
-                <li id="li-5">julian.gkt@gmail.com</li>
+                <li id="li-5">gtkncht.business@gmail.com</li>
                 <label for="li-4" class="am_label mt-2 italic">Date of Birth:</label>
                 <li id="li-4">14.06.1998</li>
                 <label for="li-4" class="am_label mt-2 italic">Nationality:</label>
@@ -46,12 +46,13 @@
                         <td>General University Entrance Qualification (Abitur)</td>
                     </tr>
                     <tr>
-                        <td class="td_small">Wagenburggymnasium Stuttgart</td>
+                        <td class="td_small"><i class="fas fa-map-marker-alt"></i> Wagenburggymnasium Stuttgart</td>
                     </tr>
                 </table>
             </div>
             <div class="bar_wrapper">
                 <div class="bar barSchool"></div>
+                <div class="bar barBehind behindSchool"></div>
             </div>
             <div class="empty"></div>
         </div>
@@ -61,6 +62,7 @@
             <div class="empty"></div>
             <div class="bar_wrapper">
                 <div class="bar barEducation"></div>
+                <div class="bar barBehind behindEducation"></div>
             </div>
             <div class="infoRight">
                 <h3 style="color: var(--color-secondary)">Further Education</h3>
@@ -72,7 +74,7 @@
                         <td>Computer Scientist for Game and Multimedia Design</td>
                     </tr>
                     <tr>
-                        <td class="td_small">SRH Fachschulen Stuttgart</td>
+                        <td class="td_small"><i class="fas fa-map-marker-alt"></i> SRH Fachschulen Stuttgart</td>
                     </tr>
                 </table>
                 <table>
@@ -83,7 +85,7 @@
                         <td>Visual Computing and Design</td>
                     </tr>
                     <tr>
-                        <td class="td_small">Hochschule Hamm-Lippstadt, Campus Lippstadt</td>
+                        <td class="td_small"><i class="fas fa-map-marker-alt"></i> Hochschule Hamm-Lippstadt</td>
                     </tr>
                 </table>
             </div>
@@ -101,7 +103,7 @@
                         <td>Virtual Reality Showroom with Unity3D</td>
                     </tr>
                     <tr>
-                        <td class="td_small">NetsDirekt GmbH, Stutgart</td>
+                        <td class="td_small"><i class="fas fa-map-marker-alt"></i> NetsDirekt GmbH, Stutgart</td>
                     </tr>
                 </table>
                 <table>
@@ -112,7 +114,7 @@
                         <td>assembly line worker in shift work</td>
                     </tr>
                     <tr>
-                        <td class="td_small">Daimler AG, Sindelfingen</td>
+                        <td class="td_small"><i class="fas fa-map-marker-alt"></i> Daimler AG, Sindelfingen</td>
                     </tr>
                 </table>
                 <table>
@@ -123,7 +125,7 @@
                         <td>different small jobs: Waiter, Tiler and Construction worker</td>
                     </tr>
                     <tr>
-                        <td class="td_small">Australia</td>
+                        <td class="td_small"><i class="fas fa-map-marker-alt"></i> Australia</td>
                     </tr>
                 </table>
                 <table>
@@ -134,7 +136,7 @@
                         <td>Marketing Assistance, Technical Assistance and Supplier</td>
                     </tr>
                     <tr>
-                        <td class="td_small">bex technologies GmbH, Stuttgart</td>
+                        <td class="td_small"><i class="fas fa-map-marker-alt"></i> bex technologies GmbH, Stuttgart</td>
                     </tr>
                 </table>
                 <table>
@@ -145,6 +147,7 @@
             </div>
             <div class="bar_wrapper">
                 <div class="bar barWork"></div>
+                <div class="bar barBehind behindWork"></div>
             </div>
             <div class="empty"></div>
         </div>
@@ -165,11 +168,11 @@
 
     <!-- Tools -->
     <div class="row justify-content-center align-items-center mt-5" id="reveal3">
-        <p class="myHeader5">Over the year i gathered lots of different skills and developed some serious knowledge.
+        <p class="myHeader5">Over the years I gathered lots of different skills and developed some serious knowledge.
             Here is a quick overview:
         </p>
         <div class="am_skills">
-            <div class="progress_info italic">html, css, php</div>
+            <div class="progress_info italic">html, css, php, Bootstrap</div>
             <div class="progress">
                 <div class="progress-value" id="progbar1"></div>
             </div>
@@ -200,7 +203,7 @@
             </div>
         </div>
         <div class="am_skills">
-            <div class="progress_info italic">Englisch</div>
+            <div class="progress_info italic">English</div>
             <div class="progress-striped"></div>
             <div class="progress">
                 <div class="progress-value" id="progbar6"></div>
@@ -213,33 +216,40 @@
 
     <!-- Skills -->
     <div class="col-md-5 mt-5" id="reveal2">
-        <p class="myHeader5">I can bring to the table:</p>
-        <div class="am_skills">
-            <p> - Persona and User Archetype</p>
-            <p> - Prototyping</p>
-            <p> - 3D Modelling and Rendering</p>
-            <p> - Usabilty Testing</p>
-            <p> - User Experience Design</p>
+        <p class="myHeader5">More that I can bring to the table:</p>
+        <div class="am_skills row justify-content-around">
+            <p class="am_box col-md-5">Persona and User Archetype</p>
+            <p class="am_box col-md-5">Prototyping</p>
+            <p class="am_box col-md-5">Usabilty Testing</p>
+            <p class="am_box col-md-5">User Experience Design</p>
+            <p class="am_box col-md-5">Responsive Design</p>
+            <p class="am_box col-md-5">Git/Version Control</p>
+            <p class="am_box col-md-5">Attention to Detail</p>
+            <p class="am_box col-md-5">3D Modelling and Rendering</p>
         </div>
+
     </div>
 
     <div class="mySpacer128"></div>
 
     <!-- Hobbys -->
     <div class="hobby_container row justify-content-around" id="reveal4">
-        <h5>Besides learning and working I have three major hobbies:</h5>
+        <p class="myHeader5">Besides learning and working I have three major hobbies:</p>
 
         <div class="hobby_wrapper col-lg-3">
             <div class="hobby_img"><i class="fas fa-cube fa-5x"></i></div>
+            <div class="dash"></div>
             <div class="hobby_desc">Well, some more working. I am currently having a lot of fun with 3D Modelling in Blender.</div>
         </div>
         <div class="hobby_wrapper col-lg-3">
             <div class="hobby_img"><i class="far fa-futbol fa-5x"></i></div>
+            <div class="dash"></div>
             <div class="hobby_desc">I used to play football for a club back in Stuttgart. Nowadays I am playing with my study colleagues for fun.</div>
         </div>
         <div class="hobby_wrapper col-lg-3">
-            <div class="hobby_img"><i class="fas fa-utensils fa-5x"></i></div>
-            <div class="hobby_desc">I wouldn't call myself a chef, but I really enjoy cooking alone or together with my girlfriend.</div>
+            <div class="hobby_img"><i class="fas fa-gamepad fa-5x"></i></div>
+            <div class="dash"></div>
+            <div class="hobby_desc">In my spare time I like to escape in video games and play together with friends or by myself.</div>
         </div>
     </div>
 

@@ -1,0 +1,17 @@
+.disclaimer-content {
+    margin: 128px auto;
+}
+
+.disclaimer-content h2 {
+    margin-top: 64px;
+    font-family: 'Xhers', Arial, Helvetica, sans-serif;
+}
+
+.disclaimer-content a {
+    color: var(--color-primary);
+}
+
+.disclaimer-content a:hover {
+    text-decoration: none;
+    filter: grayscale(10%);
+}

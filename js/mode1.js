@@ -2,7 +2,6 @@ function mode1() {
     localStorage.setItem('isMode1', true);
     localStorage.setItem('isMode2', false);
     localStorage.setItem('isMode3', false);
-    localStorage.setItem('isMode4', false);
 
 
 

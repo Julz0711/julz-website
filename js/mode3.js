@@ -2,13 +2,12 @@ function mode3() {
     localStorage.setItem('isMode3', true);
     localStorage.setItem('isMode1', false);
     localStorage.setItem('isMode2', false);
-    localStorage.setItem('isMode4', false);
 
 
     if (localStorage.getItem('isMode3') === 'true') {
         document.documentElement.style.setProperty('--color-primary', '#979796');
         document.documentElement.style.setProperty('--color-secondary', '#514F50');
-        document.documentElement.style.setProperty('--color-two', '#0a0a0a');
+        document.documentElement.style.setProperty('--color-two', '#000000');
         document.documentElement.style.setProperty('--color-one', '#FFFFFF');
         $(".activeMode").css("display", "flex");
         $(".modeChooser").css("display", "none");

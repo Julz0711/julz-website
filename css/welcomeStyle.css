@@ -1,26 +1,22 @@
 .welcome_container {
-    min-height: 200vh;
+    min-height: 150vh;
     width: 100%;
-}
-
-.wlc-h2 {
-    position: relative;
-    font-size: 2rem;
-    font-family: 'Xhers', Arial, Helvetica, sans-serif sans-serif;
-    padding-left: 20vw;
-    top: 50vh;
-    transform: translateY(-50%);
 }
 
 .wlc-h {
     position: relative;
     font-family: 'Share Tech Mono', sans-serif;
-    font-size: 2.6vw;
-    padding-left: 20vw;
+    font-size: 7vw;
+    padding-left: 15vw;
     font-weight: bold;
     overflow: hidden;
     line-height: 1.25;
-    transform: translateY(50vh);
+    transform: translateY(35vh);
+}
+
+.less-font {
+    font-size: 5.25vw;
+    padding-left: 15.5vw;
 }
 
 .wlc-h .wlc-box {
@@ -41,4 +37,14 @@
     padding: 1vw;
     margin-left: 1vw;
     background: rgb(190, 190, 190);
+}
+
+@media all and (max-width: 1000px) {
+    .wlc-h {
+        padding-left: 10vw;
+        transform: translateY(50vh);
+    }
+    .less-font {
+        padding-left: 10.5vw;
+    }
 }

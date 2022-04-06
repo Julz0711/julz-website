@@ -144,7 +144,7 @@ label[title]:hover:after {
     }
     /* Theme */
     .modeToggler {
-        padding: 48px 16px 16px 16px;
+        height: 110px;
         position: fixed;
         left: 0;
         right: 0;
@@ -162,6 +162,7 @@ label[title]:hover:after {
         gap: 0 16px;
         margin: 0;
         padding: 0;
+        padding-top: 48px;
     }
     label[title] {
         margin-top: 0;

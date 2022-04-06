@@ -25,24 +25,24 @@
         <div class="panel" id="aboutMe">
             <?php include "aboutMe.php"; ?>
         </div>
-        <!-- 
-        <div id="parallax1" class="myParallaxParent">
-            <div id="prlx1" class="parallaxImg"></div>
-        </div> -->
+
+        <div class="mySpacer128"></div>
 
         <!-- Projects -->
         <div class="panel" id="projects">
+            <div class="mySpacer128"></div>
             <?php include "projects.php"; ?>
+            <div class="mySpacer128"></div>
         </div>
-        <!-- 
-        <div id="parallax2" class="myParallaxParent">
-            <div id="prlx2" class="parallaxImg"></div>
-        </div> -->
 
+        <div class="mySpacer128"></div>
+        
         <!-- Contact -->
         <div class="panel" id="contact">
             <?php include "contact.php"; ?>
         </div>
+
+        <div class="mySpacer64"></div>
 
     </div>
 
@@ -60,6 +60,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
 
+    <!-- Email smpt -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../js/sendEmail.js"></script>
+    <script src="../js/formValidation.js"></script>
+
 
     <script src="../js/navJs.js"></script>
     <script src="../js/welcomeJs.js"></script>
@@ -70,8 +75,8 @@
     <script src="../js/mode2.js"></script>
     <script src="../js/mode3.js"></script>
     <script src="../js/mode4.js"></script>
+    <script src="../js/aboutMeJs.js"></script>
     <script src="../js/projectJs.js"></script>
-    <script src="../js/formValidation.js"></script>
 
 </body>
 
