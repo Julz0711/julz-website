@@ -111,28 +111,6 @@ dfn {
     margin-bottom: 16px;
 }
 
-.pj_img img {
-    height: 350px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 16px 0;
-    width: 100%;
-    cursor: auto;
-    box-shadow: var(--shadow);
-    object-fit: cover;
-}
-
-.pj_img_zoom img {
-    cursor: zoom-in;
-    transition: transform 0.25s ease;
-}
-
-.img_desc {
-    transform: translateY(-12px);
-    font-size: .8rem;
-}
-
 .bg-light {
     background: var(--color-one);
     padding: 32px;
@@ -140,9 +118,8 @@ dfn {
 
 .pj_video_container {
     justify-content: center;
-    margin: 32px 0;
     display: table;
-    width: 100%;
+    width: 75%;
     position: relative;
     box-shadow: var(--shadow);
 }
@@ -167,31 +144,6 @@ dfn {
     margin: auto;
     background-size: contain;
     background-position: center;
-}
-
-.pj_img_zoom input[type=checkbox] {
-    display: none;
-}
-
-.pj_img_zoom .cl:checked~img {
-    transform: scale(1.5) translateX(120px);
-    cursor: zoom-out;
-    box-shadow: 0 0 100px 100px #000;
-    z-index: 100;
-}
-
-.pj_img_zoom .cr:checked~img {
-    transform: scale(1.5) translateX(-120px);
-    cursor: zoom-out;
-    box-shadow: 0 0 100px 100px #000;
-    z-index: 100;
-}
-
-.pj_img_zoom .cm:checked~img {
-    transform: scale(1.5) translateX(0px);
-    cursor: zoom-out;
-    box-shadow: 0 0 100px 100px #000;
-    z-index: 100;
 }
 
 
@@ -234,7 +186,7 @@ dfn {
 }
 
 
-/* PJ3*/
+/* inside modals */
 
 .gallery {
     display: grid;
@@ -244,6 +196,8 @@ dfn {
 
 .img-container {
     overflow: hidden;
+    max-height: 400px;
+    max-width: 600px;
 }
 
 .img-container img {
@@ -268,7 +222,7 @@ dfn {
     opacity: 0;
     pointer-events: none;
     transition: .25s ease-out;
-    z-index: 1;
+    z-index: 100000;
 }
 
 .inside-modal.open {
@@ -278,13 +232,16 @@ dfn {
 
 .inside-modal p {
     color: var(--color-one);
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: absolute;
     bottom: 5%;
     left: 50%;
-    padding: 2rem;
+    padding: 1rem 2rem;
     transform: translate(-50%, -5%);
     transition: all .3 ease-out;
+    background: var(--color-two);
+    border: 2px solid var(--color-primary);
+    box-shadow: var(--shadow-prim-glow);
 }
 
 .full-img {

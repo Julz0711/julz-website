@@ -43,7 +43,7 @@
                         <td class="italic">09/2009 - 07/2016: Completed School</td>
                     </tr>
                     <tr>
-                        <td>General University Entrance Qualification (Abitur)</td>
+                        <td class="td-main">General University Entrance Qualification (Abitur)</td>
                     </tr>
                     <tr>
                         <td class="td_small"><i class="fas fa-map-marker-alt"></i> Wagenburggymnasium Stuttgart</td>
@@ -71,7 +71,7 @@
                         <td class="italic">10/2016 - 10/2018: Completed Training</td>
                     </tr>
                     <tr>
-                        <td>Computer Scientist for Game and Multimedia Design</td>
+                        <td class="td-main">Computer Scientist for Game and Multimedia Design</td>
                     </tr>
                     <tr>
                         <td class="td_small"><i class="fas fa-map-marker-alt"></i> SRH Fachschulen Stuttgart</td>
@@ -82,7 +82,7 @@
                         <td class="italic">10/2020 - today: Bachelor of Sciencie</td>
                     </tr>
                     <tr>
-                        <td>Visual Computing and Design</td>
+                        <td class="td-main">Visual Computing and Design</td>
                     </tr>
                     <tr>
                         <td class="td_small"><i class="fas fa-map-marker-alt"></i> Hochschule Hamm-Lippstadt</td>
@@ -100,7 +100,7 @@
                         <td class="italic">05/2018 - 08/2018: Internship</td>
                     </tr>
                     <tr>
-                        <td>Virtual Reality Showroom with Unity3D</td>
+                        <td class="td-main">Virtual Reality Showroom with Unity3D</td>
                     </tr>
                     <tr>
                         <td class="td_small"><i class="fas fa-map-marker-alt"></i> NetsDirekt GmbH, Stutgart</td>
@@ -111,7 +111,7 @@
                         <td class="italic">11/2018 - 12/2018: Vehicle Assembly</td>
                     </tr>
                     <tr>
-                        <td>assembly line worker in shift work</td>
+                        <td class="td-main">assembly line worker in shift work</td>
                     </tr>
                     <tr>
                         <td class="td_small"><i class="fas fa-map-marker-alt"></i> Daimler AG, Sindelfingen</td>
@@ -122,7 +122,7 @@
                         <td class="italic">02/2019 - 12/2019: Gap Year</td>
                     </tr>
                     <tr>
-                        <td>different small jobs: Waiter, Tiler and Construction worker</td>
+                        <td class="td-main">different small jobs: Waiter, Tiler and Construction worker</td>
                     </tr>
                     <tr>
                         <td class="td_small"><i class="fas fa-map-marker-alt"></i> Australia</td>
@@ -133,7 +133,7 @@
                         <td class="italic">01/2020 - 10/2020: Internship</td>
                     </tr>
                     <tr>
-                        <td>Marketing Assistance, Technical Assistance and Supplier</td>
+                        <td class="td-main">Marketing Assistance, Technical Assistance and Supplier</td>
                     </tr>
                     <tr>
                         <td class="td_small"><i class="fas fa-map-marker-alt"></i> bex technologies GmbH, Stuttgart</td>

@@ -51,6 +51,11 @@
     </div>
 </div>
 
+<div class="inside-modal">
+    <img src="" alt="" class="full-img" />
+    <p class="img-caption"></p>
+</div>
+
 <!-- Modal PJ1 -->
 <div class="modal fade" id="modalPJ1" tabindex="-1" aria-labelledby="labelModalPJ1" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
@@ -85,15 +90,9 @@
                     <div class="img-container">
                         <img src="../img/blender/spacy2.png" alt="Spaceship Model isolated" data-original="../img/blender/spacy2.png">
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/spacy3.png" alt="Exploding Planet" data-original="../img/blender/spacy3.png">
                     </div>
-                </div>
-
-                <div class="inside-modal">
-                    <img src="" alt="" class="full-img" />
-                    <p class="img-caption"></p>
                 </div>
 
                 <div class="mySpacer128"></div>
@@ -106,11 +105,13 @@
 
                 <div class="mySpacer64"></div>
 
-                <div class="pj_video_container">
-                    <video class="pj_video" src="img/blender/JulzLoopV2.mp4" type="video/mp4" loop muted>
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="playpause"></div>
+                <div class="row justify-content-center">
+                    <div class="pj_video_container">
+                        <video class="pj_video" src="img/blender/JulzLoopV2.mp4" type="video/mp4" loop muted>
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="playpause"></div>
+                    </div>
                 </div>
 
                 <div class="mySpacer64"></div>
@@ -119,15 +120,9 @@
                     <div class="img-container">
                         <img src="../img/blender/pj1_2.png" alt="Blender Scene of the Cube" data-original="../img/blender/pj1_2.png">
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/pj1_1.png" alt="Differnet View of the Scene" data-original="../img/blender/pj1_1.png">
                     </div>
-                </div>
-
-                <div class="inside-modal">
-                    <img src="" alt="" class="full-img" />
-                    <p class="img-caption"></p>
                 </div>
 
                 <div class="mySpacer128"></div>
@@ -146,11 +141,6 @@
                     <div class="img-container">
                         <img src="../img/blender/placeholder.png" alt="placeholder" data-original="../img/blender/placeholder.png">
                     </div>
-                </div>
-
-                <div class="inside-modal">
-                    <img src="" alt="" class="full-img" />
-                    <p class="img-caption"></p>
                 </div>
 
                 <div class="mySpacer128"></div>
@@ -179,11 +169,6 @@
                     </div>
                 </div>
 
-                <div class="inside-modal">
-                    <img src="" alt="" class="full-img" />
-                    <p class="img-caption"></p>
-                </div>
-
                 <div class="mySpacer64"></div>
 
                 <p class="myHeader5">Solidworks Project: Pencil Sharpener</p>
@@ -196,23 +181,15 @@
                     <div class="img-container">
                         <img src="../img/blender/sharpy1.jpeg" alt="Rendering of the pencil Sharpener" data-original="../img/blender/sharpy1.jpeg">
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/sharpy2.jpg" alt="Isolation of sharpening tool" data-original="../img/blender/sharpy2.jpg">
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/sharpy3.jpg" alt="Top View of the pencil Sharpener" data-original="../img/blender/sharpy3.jpg" />
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/sharpy4.jpg" alt="Technical Drawing" data-original="../img/blender/sharpy4.jpg" />
                     </div>
-                </div>
-
-                <div class="inside-modal">
-                    <img src="" alt="" class="full-img" />
-                    <p class="img-caption"></p>
                 </div>
 
                 <div class="mySpacer64"></div>
@@ -228,25 +205,16 @@
                     <div class="img-container">
                         <img src="../img/blender/blenderRender1.jpg" alt="A Blender created in Alias (standing)" data-original="../img/blender/blenderRender1.jpg">
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/blenderRender2.jpg" alt="A Blender created in Alias (laying)" data-original="../img/blender/blenderRender2.jpg">
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/vacuumRender1.jpg" alt="A Vacuum Cleaner created in Alias" data-original="../img/blender/vacuumRender1.jpg" />
                     </div>
-
                     <div class="img-container">
                         <img src="../img/blender/vacuumRender2.png" alt="A Vacuum Cleaner created in Alias with Accessories" data-original="../img/blender/vacuumRender2.png" />
                     </div>
                 </div>
-
-                <div class="inside-modal">
-                    <img src="" alt="" class="full-img" />
-                    <p class="img-caption"></p>
-                </div>
-
 
                 <div class="mySpacer64"></div>
             </div>
@@ -274,59 +242,35 @@
                 This was by far my most time consuming blender project but it was worth every minute. I enjoyed it alot and I hope the results can speak
                 for themselves:
 
-                <div class="pj_video_container">
-                    <video class="pj_video" src="img/24frameV3.mp4" type="video/mp4" loop muted>
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="playpause"></div>
-                </div>
+                <div class="mySpacer64"></div>
 
-                <div class="row">
-                    <div class="pj_img pj_img_zoom col-xl-6">
-                        <label>
-                            <input type="checkbox" class="cl">
-                            <img src="../img/pj2_1.png">
-                        </label>
-                    </div>
-                    <div class="pj_img pj_img_zoom col-xl-6">
-                        <label>
-                            <input type="checkbox" class="cr">
-                            <img src="../img/pj2_2.png">
-                        </label>
-                    </div>
-                    <div class="pj_img pj_img_zoom col-xl-6">
-                        <label>
-                            <input type="checkbox" class="cl">
-                            <img src="../img/pj2_3.png">
-                        </label>
-                    </div>
-                    <div class="pj_img pj_img_zoom col-xl-6">
-                        <label>
-                            <input type="checkbox" class="cr">
-                            <img src="../img/pj2_4.png">
-                        </label>
-                    </div>
-                    <div class="pj_img pj_img_zoom col-xl-6">
-                        <label>
-                            <input type="checkbox" class="cl">
-                            <img src="../img/pj2_5.png">
-                        </label>
+                <div class="row justify-content-center">
+                    <div class="pj_video_container">
+                        <video class="pj_video" src="img/24frameV3.mp4" type="video/mp4" loop muted>
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="playpause"></div>
                     </div>
                 </div>
 
-                <div class="gallery">
+                <div class="mySpacer64"></div>
+
+                <div class="gallery" id="g2">
                     <div class="img-container">
-                        <img src="../img/blender/pj1_2.png" alt="Blender Scene of the Cube" data-original="../img/blender/pj1_2.png">
+                        <img src="../img/pj2_1.png" alt="Blender Scene of the rainy night" data-original="../img/pj2_1.png">
                     </div>
-
                     <div class="img-container">
-                        <img src="../img/blender/pj1_1.png" alt="Differnet View of the Scene" data-original="../img/blender/pj1_1.png">
+                        <img src="../img/pj2_2.png" alt="Blender Scene of the rainy night" data-original="../img/pj2_2.png">
                     </div>
-                </div>
-
-                <div class="inside-modal">
-                    <img src="" alt="" class="full-img" />
-                    <p class="img-caption"></p>
+                    <div class="img-container">
+                        <img src="../img/pj2_3.png" alt="Blender Scene of the rainy night" data-original="../img/pj2_3.png">
+                    </div>
+                    <div class="img-container">
+                        <img src="../img/pj2_4.png" alt="Blender Scene of the rainy night" data-original="../img/pj2_4.png">
+                    </div>
+                    <div class="img-container">
+                        <img src="../img/pj2_5.png" alt="Blender Scene of the rainy night" data-original="../img/pj2_5.png">
+                    </div>
                 </div>
 
                 <div class="mySpacer64"></div>
@@ -372,45 +316,46 @@
                             Along the work we made different tweeks to colors and fonts, but the basics of the moodboard helped a lot through
                             the project.<br></p>
 
-                        <div class="row justify-content-center align-items-center">
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cm">
-                                    <img src="../img/squadUP/proto1.png">
-                                </label>
+                        <div class="mySpacer64"></div>
+
+                        <div class="gallery">
+                            <div class="img-container">
+                                <img src="../img/squadUP/proto1.png" alt="squadUP Moodboard" data-original="../img/squadUP/proto1.png">
                             </div>
                         </div>
+
+                        <div class="mySpacer64"></div>
 
                         <p><br>Another significant step of prototyping was the creation of our Persona. Our ideal user so to say. This was also a
                             lot of fun to do.<br></p>
 
-                        <div class="row justify-content-center align-items-center">
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cm">
-                                    <img src="../img/squadUP/proto2.png">
-                                </label>
+                        <div class="mySpacer64"></div>
+
+                        <div class="gallery">
+                            <div class="img-container">
+                                <img src="../img/squadUP/proto2.png" alt="squadUP Persona" data-original="../img/squadUP/proto2.png">
                             </div>
                         </div>
+
+                        <div class="mySpacer64"></div>
 
                         <p><br>The final part of creating the prototyp was making Wireframes and Gridlayouts to be ready to get to coding.
                             Now had all the infos and templates we needed to get started.</p>
                         </p>
 
-                        <div class="row justify-content-center align-items-center">
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cl">
-                                    <img src="../img/squadUP/proto3.png">
-                                </label>
+                        <div class="mySpacer64"></div>
+
+                        <div class="gallery">
+                            <div class="img-container">
+                                <img src="../img/squadUP/proto3.png" alt="squadUP Wireframe" data-original="../img/squadUP/proto3.png">
                             </div>
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cr">
-                                    <img src="../img/squadUP/proto3.png">
-                                </label>
+                            <div class="img-container">
+                                <img src="../img/squadUP/proto4.png" alt="squadUP Gridlayouit" data-original="../img/squadUP/proto4.png">
                             </div>
                         </div>
+
+                        <div class="mySpacer64"></div>
+
                     </div>
                     <div class="mySpacer128"></div>
 
@@ -419,15 +364,17 @@
                         <p>The Logo as a very important aspect of every Coorporate identity, so we had a fitting but also easy to remember
                             design for squadUP. We decided to go with a striking arrow that allows replaces the letter 'A' in squad.</p>
 
-                        <div class="row justify-content-center align-items-center">
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cm">
-                                    <img class="bg-light" src="../img/squadUP/logo.png">
-                                </label>
+                        <div class="mySpacer64"></div>
+
+                        <div class="gallery">
+                            <div class="img-container">
+                                <img src="../img/squadUP/logo.png" alt="squadUP Logo" data-original="../img/squadUP/logo.png">
                             </div>
                         </div>
+
+                        <div class="mySpacer64"></div>
                     </div>
+
                     <div class="mySpacer128"></div>
 
                     <div class="pj3_impl" id="impl">
@@ -438,52 +385,33 @@
                             php for login and register validations (so we also needed a database). Therefore we created such in mySQL to save Usernames
                             and hashed Passwords.</p>
                     </div>
+
                     <div class="mySpacer128"></div>
 
                     <div class="pj3_rslt" id="rslt">
                         <h4 class="pj_subheader">Result</h4>
-                        <div class="row">
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cl">
-                                    <img src="../img/squadUP/sup1.png">
-                                </label>
+
+                        <div class="gallery" id="g2">
+                            <div class="img-container">
+                                <img src="../img/squadUP/sup1.png" alt="squadUP Landing Page" data-original="../img/squadUP/sup1.png">
                             </div>
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cr">
-                                    <img src="../img/squadUP/sup2.png">
-                                </label>
+                            <div class="img-container">
+                                <img src="../img/squadUP/sup2.png" alt="squadUP Part of the Intro" data-original="../img/squadUP/sup2.png">
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cl">
-                                    <img src="../img/squadUP/sup3.png">
-                                </label>
+                            <div class="img-container">
+                                <img src="../img/squadUP/sup3.png" alt="squadUP Event Section" data-original="../img/squadUP/sup3.png">
                             </div>
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cr">
-                                    <img src="../img/squadUP/sup4.png">
-                                </label>
+                            <div class="img-container">
+                                <img src="../img/squadUP/sup4.png" alt="squadUP About Us in Light Mode" data-original="../img/squadUP/sup4.png">
+                            </div>
+                            <div class="img-container">
+                                <img src="../img/squadUP/sup5.png" alt="squadUP Register Form" data-original="../img/squadUP/sup5.png">
+                            </div>
+                            <div class="img-container">
+                                <img src="../img/squadUP/sup6.png" alt="squadUP Contact Form" data-original="../img/squadUP/sup6.png">
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cl">
-                                    <img src="../img/squadUP/sup5.png">
-                                </label>
-                            </div>
-                            <div class="pj_img pj_img_zoom col-xl-6">
-                                <label>
-                                    <input type="checkbox" class="cr">
-                                    <img src="../img/squadUP/sup6.png">
-                                </label>
-                            </div>
-                        </div>
+
                         <div class="mySpacer64"></div>
                     </div>
                 </div>
