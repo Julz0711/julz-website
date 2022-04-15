@@ -32,6 +32,7 @@
 <link rel="stylesheet" type="text/css" href="../css/aboutMeStyle.css">
 <link rel="stylesheet" type="text/css" href="../css/contactStyle.css">
 <link rel="stylesheet" type="text/css" href="../css/navStyleV2.css">
+<link rel="stylesheet" type="text/css" href="../css/parrallax2.css">
 <link rel="stylesheet" type="text/css" href="../css/disclaimerStyle.css">
 <link rel="stylesheet" type="text/css" href="../css/scrollMagicStyle.css">
 

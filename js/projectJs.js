@@ -15,8 +15,8 @@ $('#pj4').hover(
     function() { $('#desc4').removeClass('pj_active') }
 )
 $('#pj5').hover(
-    function() { $('#desc5').addClass('pj_active') },
-    function() { $('#desc5').removeClass('pj_active') }
+    function() { $('#desc5').addClass('pj_active2') },
+    function() { $('#desc5').removeClass('pj_active2') }
 )
 
 //Video

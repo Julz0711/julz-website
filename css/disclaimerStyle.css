@@ -2,6 +2,14 @@
     margin: 128px auto;
 }
 
+.disclaimer-content h1 {
+    font-size: 3rem;
+    letter-spacing: 8px;
+    font-family: 'Lovelo', sans-serif;
+    animation: neon1 3s ease-in-out infinite alternate;
+    color: var(--color-one);
+}
+
 .disclaimer-content h2 {
     margin-top: 64px;
     font-family: 'Xhers', Arial, Helvetica, sans-serif;
@@ -14,4 +22,13 @@
 .disclaimer-content a:hover {
     text-decoration: none;
     filter: grayscale(10%);
+}
+
+@media all and (min-width: 2200px) {
+    .disclaimer-content h2 {
+        font-size: 200%;
+    }
+    .disclaimer-content {
+        font-size: 200%;
+    }
 }

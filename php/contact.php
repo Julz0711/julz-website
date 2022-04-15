@@ -1,8 +1,8 @@
-<div class="container mx-auto mt-5 mb-5 myContainer" id="smContact">
-    <h1 class="mb-5">Contact Me</h1>
+<div class="container mx-auto myContainer" id="smContact">
+    <h1 class="mb-5 head-anim">Contact Me</h1>
 
-
-    <form action="https://formsubmit.co/gtkncht.business@gmail.com" method="POST" class="row g-6" id="form" autocomplete="off" />
+    <div class="myContent">
+        <form action="https://formsubmit.co/gtkncht.business@gmail.com" method="POST" class="row g-6" id="form" autocomplete="off" />
         <input type="hidden" name="_subject" value="New Enquiry!">
         <!-- <input type="hidden" name="_next" value="contactPost.php"> -->
 
@@ -40,7 +40,6 @@
             <div class="errorMsg col-md-12" id="errorMessage"></div>
         </div>
 
-        <input type="hidden" name="_next" value="#">
         <input type="hidden" name="_template" value="box">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_autoresponse" value="Thank you for your message! I will get in touch shortly.">
@@ -50,5 +49,7 @@
         </div>
 
         <a href="../php/contactPost.php">test submit</a>
-    </form>
+        </form>
+    </div>
+    <div class="endTrigger"></div>
 </div>

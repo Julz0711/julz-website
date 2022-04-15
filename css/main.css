@@ -23,6 +23,7 @@ html {
     font-family: 'Share Tech Mono', sans-serif;
     background: var(--color-two);
     color: var(--color-one);
+    width: 100%;
 }
 
 #nav {
@@ -52,12 +53,47 @@ html {
     font-size: 1.2rem;
 }
 
-h1 {
+.head-anim {
     font-size: 3rem;
     letter-spacing: 8px;
     font-family: 'Lovelo', sans-serif;
     animation: neon1 3s ease-in-out infinite alternate;
     color: var(--color-one);
+    position: relative;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: .5s;
+    transition-delay: 0.5s;
+    display: inline-block;
+}
+
+.head-anim.active {
+    transform: scaleX(1);
+    transition-delay: 0s;
+}
+
+.head-anim:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-primary);
+    transform-origin: right;
+    transition: .5s;
+    transition-delay: 0s;
+}
+
+.head-anim.active:before {
+    transform: scaleX(0);
+    transition-delay: 0.5s;
+}
+
+dfn {
+    font-weight: 900;
+    text-decoration: underline dotted;
+    cursor: help;
 }
 
 @keyframes neon1 {
@@ -108,6 +144,17 @@ h1 {
     padding: 0 64px;
 }
 
+.myContent {
+    transition: 1s;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.myContent.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 .mySpacer {
     height: 50vh;
 }
@@ -140,67 +187,6 @@ h1 {
     box-shadow: none;
     transition: 0.1s;
 }
-
-
-/* 
-.myBtn {
-    font-weight: 700;
-    font-size: 1.5rem;
-    width: 160px;
-    height: 50px;
-    line-height: 50px;
-    border: none;
-    border-radius: 0;
-    color: var(--color-two);
-    font-family: 'Xhers', sans-serif;
-    box-sizing: border-box;
-    background: linear-gradient(90deg, var(--color-one), var(--color-one), var(--color-secondary), var(--color-secondary), var(--color-one));
-    background-size: 400%;
-}
-
-.myBtn:hover {
-    animation: animateBtn 6s linear infinite;
-}
-
-@keyframes animateBtn {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 400%;
-    }
-}
-
-.jenson {
-    height: 76px;
-}
-
-.jenson a {
-    position: absolute;
-    width: 160px;
-    z-index: 1;
-}
-
-.jenson a:before {
-    content: "";
-    position: absolute;
-    top: -0.1px;
-    left: -0.1px;
-    right: -0.1px;
-    bottom: -0.1px;
-    z-index: -1;
-    background: linear-gradient(90deg, var(--color-one), var(--color-one), var(--color-secondary), var(--color-secondary), var(--color-one));
-    background-size: 400%;
-    border-radius: 0;
-    opacity: 0;
-    transition: 0.5%;
-}
-
-.jenson a:hover:before {
-    filter: blur(5px);
-    opacity: 1;
-    animation: animateBtn 6s linear infinite;
-} */
 
 .miniBtn {
     background: none;
@@ -247,7 +233,29 @@ h1 {
 }
 
 @media all and (min-width: 2200px) {
+    h1 {
+        font-size: 6rem;
+    }
     .myContainer {
-        width: 66vw;
+        max-width: 66vw;
+    }
+    .mySpacer64 {
+        height: 128px;
+    }
+    .mySpacer128 {
+        height: 256px;
+    }
+    .myHeader5 {
+        font-size: 3rem;
+    }
+    .myHeader6 {
+        font-size: 2.5rem;
+    }
+    .myBtn {
+        font-weight: 700;
+        font-size: 3rem;
+        width: 300px;
+        height: 100px;
+        line-height: 100px;
     }
 }

@@ -33,7 +33,7 @@ function initCanvas(section, canvas) {
             scrollTrigger: {
                 trigger: 'section',
                 pin: true,
-                scrub: 0.5,
+                scrub: .5,
                 end: "+=200%",
                 markers: true
             }
@@ -60,3 +60,27 @@ function initOther(section) {
         end: '+=200%'
     });
 }
+
+//Header anim
+const reveal = gsap.utils.toArray('.head-anim');
+reveal.forEach((text, i) => {
+    ScrollTrigger.create({
+        trigger: text,
+        toggleClass: 'active',
+        start: 'top 90%',
+        end: 'top top',
+        markers: true
+    })
+})
+
+const container = gsap.utils.toArray('.myContent');
+let end = $('myContent').height();
+container.forEach((div, i) => {
+    ScrollTrigger.create({
+        trigger: div,
+        toggleClass: 'active',
+        start: 'top 75%',
+        end: end,
+        markers: true
+    })
+})

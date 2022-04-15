@@ -16,12 +16,17 @@
     margin-bottom: 48px;
 }
 
-.am_img {
-    width: 100%;
-    max-width: 300px;
-    padding: 16px;
+.am-img-wrapper {
+    height: 100%;
+    margin: 0;
     display: flex;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.am_img {
+    height: 100%;
+    padding: 16px;
 }
 
 .container ul {
@@ -419,5 +424,83 @@ table td {
     }
     .am_img {
         padding: 20px;
+    }
+}
+
+@media all and (min-width: 2200px) {
+    .container ul li {
+        font-size: 2.8rem;
+    }
+    .am_img {
+        transform: scale(200%);
+    }
+    .bar_wrapper {
+        width: 64px;
+    }
+    .timeLine_wrapper h3 {
+        font-size: 4rem;
+    }
+    table td {
+        border: 0;
+        font-size: 2.35rem;
+    }
+    .td_small {
+        font-size: 2rem;
+    }
+    .td-main {
+        font-weight: 700;
+        font-size: 2.15rem;
+    }
+    .italic {
+        font-style: italic;
+        filter: brightness(50%);
+        font-size: 2rem;
+        font-family: 'Xhers', sans-serif;
+    }
+    .barBehind {
+        filter: blur(10px);
+    }
+    .barArrow {
+        border-top: 188px solid var(--color-one);
+        border-left: 96px solid transparent;
+        border-right: 96px solid transparent;
+        transform: translate(-65px, -2px);
+    }
+    .barArrowBehind {
+        content: " ";
+        border-top: 188px solid var(--color-one);
+        border-left: 96px solid transparent;
+        border-right: 96px solid transparent;
+        top: -190px;
+        left: -65px;
+        filter: blur(10px);
+    }
+    .progress {
+        box-shadow: inset 20px 20px 0px #000, var(--shadow-prim-glow);
+        height: 80px;
+    }
+    .progress .progress-value {
+        transform: skew(-45deg) translateX(-50px);
+    }
+    .am_box {
+        font-size: 2rem;
+        padding: 32px;
+    }
+    .hobby_wrapper {
+        max-width: 700px;
+        padding: 64px;
+    }
+    .hobby_img {
+        margin: 64px;
+    }
+    .hobby_container {
+        gap: 64px;
+    }
+    .fa-5x {
+        font-size: 10rem;
+    }
+    .hobby_desc {
+        font-size: 2rem;
+        margin: 64px;
     }
 }

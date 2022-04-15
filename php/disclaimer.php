@@ -14,6 +14,7 @@
 
     <div class="disclaimer-content myContainer">
         <h1>Disclaimer</h1>
+
         <p>Last updated: April 03, 2022</p>
         <h2>Interpretation and Definitions</h1>
             <h2>Interpretation</h2>

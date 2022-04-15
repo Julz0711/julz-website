@@ -17,7 +17,7 @@
             <div class="post-success">
                 <p>Thank you very much for getting in contact.</p>
 
-                <a href="../php/index.php"><input type="submit" class="myBtn" value="Advance"></a>
+                <a href="../index.php"><input type="submit" class="myBtn" value="Continue"></a>
             </div>
         </div>
     </div>

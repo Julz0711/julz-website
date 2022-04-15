@@ -70,12 +70,21 @@ input:-webkit-autofill:active {
 .post-success {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
 }
 
 .post-success p {
     font-size: 1.6rem;
     text-align: left;
-    padding-bottom: 32px;
+}
+
+@media all and (min-width: 2200px) {
+    .form-control {
+        font-size: 2rem;
+    }
+    .post-success p {
+        font-size: 3rem;
+        text-align: left;
+    }
 }
