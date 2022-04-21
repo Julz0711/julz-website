@@ -40,7 +40,9 @@
     right: 48px;
     bottom: 96px;
     z-index: 1;
+    display: block;
 }
+
 
 .radios {
     display: flex;
@@ -61,6 +63,7 @@
 
 input[type="radio"] {
     appearance: none;
+    -webkit-appearance: none;
     background-color: var(--color-two);
     margin: 0;
     width: 2rem;
@@ -73,7 +76,7 @@ input[type="radio"] {
     position: relative;
 }
 
-input[type="radio"]::before {
+input[type="radio"]:before {
     content: "";
     width: 1.25rem;
     height: 1.25rem;
@@ -83,7 +86,7 @@ input[type="radio"]::before {
     box-shadow: inset 1em 1em var(--color-primary);
 }
 
-input[type="radio"]:checked::before {
+input[type="radio"]:checked:before {
     transform: scale(1);
 }
 
@@ -148,7 +151,6 @@ input[type="radio"]:hover+.mode-hover {
     color: var(--color-primary);
     transform: scale(1.1);
 }
-
 
 /* Description */
 
@@ -246,6 +248,10 @@ label[title]:hover:after {
         padding-top: 48px;
         transform: scale(1.5);
     }
+    .nav-socials a:hover {
+        color: var(--color-primary);
+        transform: scale(1.65);
+    }
 }
 
 @media all and (max-width: 1000px) {
@@ -259,9 +265,13 @@ label[title]:hover:after {
         padding-top: 50px;
         transform: scale(1.25);
     }
+    .nav-socials a:hover {
+        color: var(--color-primary);
+        transform: scale(1.35);
+    }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 868px) {
     /* Socials */
     .nav-socials {
         display: none;

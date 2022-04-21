@@ -42,13 +42,13 @@
 
         <input type="hidden" name="_template" value="box">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_autoresponse" value="Thank you for your message! I will get in touch shortly.">
+        <input type="hidden" name="_autoresponse" value="Thank you for your message! I will get in touch with you shortly.">
 
         <div class="col-md-12 mt-4 jenson">
             <a><input type="submit" class="myBtn" value="Submit"></a>
         </div>
 
-        <a href="../php/contactPost.php">test submit</a>
+        <!--<a href="contactPost.php">test submit</a>-->
         </form>
     </div>
     <div class="endTrigger"></div>

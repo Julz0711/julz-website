@@ -5,8 +5,8 @@ function mode3() {
 
 
     if (localStorage.getItem('isMode3') === 'true') {
-        document.documentElement.style.setProperty('--color-primary', '#979796');
-        document.documentElement.style.setProperty('--color-secondary', '#514F50');
+        document.documentElement.style.setProperty('--color-primary', '#a7a7a7');
+        document.documentElement.style.setProperty('--color-secondary', '#7a7a7a');
         document.documentElement.style.setProperty('--color-two', '#000000');
         document.documentElement.style.setProperty('--color-one', '#FFFFFF');
         $(".activeMode").css("display", "flex");
@@ -17,8 +17,8 @@ function mode3() {
 
 //safe mode to session storage
 if (localStorage.getItem('isMode3') === 'true') {
-    document.documentElement.style.setProperty('--color-primary', '#979796');
-    document.documentElement.style.setProperty('--color-secondary', '#514F50');
+    document.documentElement.style.setProperty('--color-primary', '#a7a7a7');
+    document.documentElement.style.setProperty('--color-secondary', '#7a7a7a');
     document.documentElement.style.setProperty('--color-two', '#000000');
     document.documentElement.style.setProperty('--color-one', '#FFFFFF');
     $(".activeMode").css("display", "flex");

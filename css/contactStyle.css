@@ -9,7 +9,7 @@
     border: 2px solid var(--color-primary);
     border-radius: 0;
     font-family: 'Share Tech Mono', sans-serif;
-    box-shadow: var(--shadow-prim-glow);
+    animation: neon2 3s ease-in-out infinite alternate;
 }
 
 .myFormInput:hover,
@@ -19,6 +19,7 @@
     background: var(--color-two);
     border: 2px solid var(--color-one);
     box-shadow: 0 0 2px var(--color-two);
+    animation: none;
 }
 
 .myFormInput:focus,
@@ -26,8 +27,9 @@
     color: var(--color-one);
     outline: 0;
     background: var(--color-two);
-    opacity: 0.8;
-    box-shadow: 0 0 2px var(--color-two);
+    border: 2px solid var(--color-one);
+    box-shadow: 0 0 20px -5px var(--color-one);
+    animation: none;
 }
 
 .myTextarea {
@@ -54,7 +56,7 @@ input:-webkit-autofill:active {
 /* Contact Post */
 
 #contactPost {
-    background-image: url(../img/stars.png);
+    background-image: url(img/stars.png);
     background-attachment: fixed;
     background-size: cover;
 }

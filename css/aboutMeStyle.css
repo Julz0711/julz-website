@@ -5,7 +5,10 @@
     border-radius: 0px;
     margin: 0;
     padding: 64px;
-    box-shadow: var(--shadow-prim-glow);
+    animation: neon2 1s ease-in-out infinite alternate;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -webkit-box-shadow: var(--color-primary) 0px 0 20px -5px;
 }
 
 .am_ul {
@@ -94,16 +97,22 @@
 .barSchool {
     height: 100%;
     background: var(--color-primary);
+    box-shadow: 0 0 20px -5px var(--color-primary);
+    clip-path: inset(-20px -20px 0px -20px);
 }
 
 .barEducation {
     height: 100%;
     background: var(--color-secondary);
+    box-shadow: 0 0 20px -5px var(--color-secondary);
+    clip-path: inset(8px -20px 8px -20px);
 }
 
 .barWork {
     height: 100%;
     background: var(--color-one);
+    box-shadow: 0 0 20px -5px var(--color-one);
+    clip-path: inset(0px -20px 0px -20px);
 }
 
 .barBehind {
@@ -113,18 +122,6 @@
     transform: translate(-50%, -100%);
     filter: blur(5px);
     left: 50%;
-}
-
-.behindSchool {
-    background: var(--color-primary);
-}
-
-.behindEducation {
-    background: var(--color-secondary);
-}
-
-.behindWork {
-    background: var(--color-one);
 }
 
 .barArrow {
@@ -205,7 +202,7 @@ table td {
 }
 
 .progress {
-    box-shadow: inset 8px 8px 0px #000, var(--shadow-prim-glow);
+    animation: neon2 1s ease-in-out infinite alternate;
     height: 40px;
     background: rgba(0, 0, 0, 0.0);
     border: 2px solid var(--color-primary);
@@ -217,7 +214,7 @@ table td {
 .progress .progress-value {
     background: var(--color-primary);
     height: 100%;
-    transform: skew(-45deg) translateX(-30px);
+    transform: skew(-30deg) translateX(-30px);
 }
 
 .progress .progress-value.val1 {
@@ -305,7 +302,7 @@ table td {
     padding: 16px;
     border: 2px solid var(--color-primary);
     background: var(--color-two);
-    box-shadow: var(--shadow-prim-glow);
+    animation: neon2 1s ease-in-out infinite alternate;
     margin: 0 0 32px 0;
 }
 
@@ -325,7 +322,7 @@ table td {
     color: var(--color-two);
     transition: .5s;
     font-weight: 700;
-    box-shadow: var(--shadow-prim-glow);
+    animation: neon2 1s ease-in-out infinite alternate;
 }
 
 .hobby_wrapper div {
@@ -354,12 +351,12 @@ table td {
 }
 
 #prlx1 {
-    background-image: url("../img/keyboard.jpg");
+    background-image: url("img/keyboard.jpg");
     opacity: 0.5;
 }
 
 #prlx2 {
-    background-image: url("../img/parralax2.jpg");
+    background-image: url("img/parralax2.jpg");
     opacity: 0.5;
 }
 
@@ -476,7 +473,7 @@ table td {
         filter: blur(10px);
     }
     .progress {
-        box-shadow: inset 20px 20px 0px #000, var(--shadow-prim-glow);
+        animation: neon2 1s ease-in-out infinite alternate;
         height: 80px;
     }
     .progress .progress-value {

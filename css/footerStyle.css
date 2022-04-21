@@ -24,7 +24,7 @@
 }
 
 #footer_Icon {
-    padding-right: 16px;
+    margin: 0 8px;
     color: var(--color-two);
 }
 
@@ -55,15 +55,37 @@
     color: var(--color-one);
 }
 
+.footerSpacer {
+    height: 0;
+}
+
 @media all and (max-width: 1200px) {
     #footer {
         border: none;
     }
     .footer {
         background: var(--color-two);
+        color: var(--color-one);
     }
     .footer-content {
-        margin-bottom: 150px;
+        gap: 8px;
+    }
+    #footer_Icon {
+        color: var(--color-one);
+        font-size: 1.5rem;
+    }
+    .footer-content p {
+        font-size: 1rem;
+        color: var(--color-one);
+    }
+    .link,
+    .link:focus,
+    .link::after {
+        color: var(--color-one);
+        font-size: 1.2rem;
+    }
+    .footerSpacer {
+        height: 150px;
     }
 }
 

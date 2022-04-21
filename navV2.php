@@ -1,20 +1,20 @@
 <div class="nav" id="smNav">
-    <a id="nav1" class="navLink" href="../index.php#aboutMe">
+    <a id="nav1" class="navLink" href="index.php#aboutMe">
         <i class="fas fa-user-circle myFa"></i>
         About Me
     </a>
-    <a id="nav2" class="navLink" href="../index.php#projects">
+    <a id="nav2" class="navLink" href="index.php#projects">
         <i class="fas fa-folder-open myFa"></i>
         Projects
     </a>
-    <a id="nav3" class="navLink" href="../index.php#contact">
+    <a id="nav3" class="navLink" href="index.php#contact">
         <i class="fas fa-paper-plane myFa"></i>
         Contact
     </a>
 </div>
 
 
-<div class="modeToggler" id="smTog">
+<div class="modeToggler .safari_only" id="smTog">
     <div class="radios">
 
         <p class="modeP">Theme</p>
@@ -39,6 +39,7 @@
             <input type="radio" onclick="mode3()" id="mode3" name="mode1-mode2-mode3">
             <div class="mode-hover mh3"></div>
         </div>
+
     </div>
 </div>
 

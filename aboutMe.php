@@ -3,33 +3,31 @@
 
     <div class="myContent">
         <p class="col-md-10 myHeader6">
-            Hello, my name is Julian 'Julz' Gutknecht, I am 23 years old and study Visual Computing and Design
-            at the University of Hamm-Lippstadt. Currently I am in the 4th Semester. I am an upcoming Web Developer
+            Hello, my name is Julian 'Julz' Gutknecht. I am 23 years old and studying Visual Computing and Design
+            at the University of Hamm-Lippstadt. Currently, I am in the 4th Semester. I am an upcoming Web Developer
             and 3D Artist. This is my Portfolio that I created all by myself with vanilla html, css, javascript
-            and a little help of the
+            and a little help from the
             <dfn title="Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript 
         framework for creating responsive, mobile-first websites.">Bootstrap 5</dfn>,
             <dfn title="The GreenSock Animation Platform (GSAP) animates anything JavaScript can touch (CSS properties, SVG, React, canvas, 
         generic objects, whatever) and solves countless browser inconsistencies, all with blazing speed (up to 20x faster than jQuery). ">GSAP</dfn> and
             <dfn title="The javascript library for magical scroll interactions. ScrollMagic helps you to easily react to 
         the user's current scroll position.">ScrollMagic</dfn> libraries.
-            I could have used a tool like WordPress but that would not have been exciting and less of a challenge right?
+            I could have used a tool like WordPress but that certainly wouldn't have been so much fun 
+            and would have been too easy, right?
         </p>
         <!-- Info -->
         <div class="row am_wrapper justify-content-center align-items-center" id="reveal1">
             <div class="col-xl-7 am-img-wrapper">
-                <img src="../img/JulzPixelArt.png" class="am_img" alt="thats me :)">
+                <img src="img/JulzPixelArt.png" class="am_img" alt="thats me :)">
             </div>
             <div class="col-xl-5 am_infos">
                 <ul class="am_ul">
                     <label for="li-1" class="am_label italic">Name:</label>
                     <li id="li-1">Julian Gutknecht</li>
-                    <label for="li-2" class="am_label mt-2 italic">Adress:</label>
-                    <li id="li-2">Blumenstraße 1<br>
-                        59555 Lippstadt</li>
-                    <label for="li-3" class="am_label mt-2 italic">Phone Mumber:</label>
-                    <li id="li-3">+49 172 3252639</li>
-                    <label for="li-5" class="am_label mt-2 italic">E-Mail:</label>
+                    <label for="li-2" class="am_label mt-2 italic">Place of Residence:</label>
+                    <li id="li-2">Lippstadt, NRW</li>
+                    <label for="li-5" class="am_label mt-2 italic">E-Mail Adress:</label>
                     <li id="li-5">gtkncht.business@gmail.com</li>
                     <label for="li-4" class="am_label mt-2 italic">Date of Birth:</label>
                     <li id="li-4">14.06.1998</li>
@@ -52,7 +50,7 @@
                             <td class="italic">09/2009 - 07/2016: Completed School</td>
                         </tr>
                         <tr>
-                            <td class="td-main">General University Entrance Qualification (Abitur)</td>
+                            <td class="td-main">High School Graduation (Abitur)</td>
                         </tr>
                         <tr>
                             <td class="td_small"><i class="fas fa-map-marker-alt"></i> Wagenburggymnasium Stuttgart</td>
@@ -61,7 +59,6 @@
                 </div>
                 <div class="bar_wrapper">
                     <div class="bar barSchool"></div>
-                    <div class="bar barBehind behindSchool"></div>
                 </div>
                 <div class="empty"></div>
             </div>
@@ -71,13 +68,12 @@
                 <div class="empty"></div>
                 <div class="bar_wrapper">
                     <div class="bar barEducation"></div>
-                    <div class="bar barBehind behindEducation"></div>
                 </div>
                 <div class="infoRight">
                     <h3 style="color: var(--color-secondary)">Further Education</h3>
                     <table>
                         <tr>
-                            <td class="italic">10/2016 - 10/2018: Completed Training</td>
+                            <td class="italic">10/2016 - 10/2018: Apprenticeship</td>
                         </tr>
                         <tr>
                             <td class="td-main">Computer Scientist for Game and Multimedia Design</td>
@@ -156,7 +152,6 @@
                 </div>
                 <div class="bar_wrapper">
                     <div class="bar barWork"></div>
-                    <div class="bar barBehind behindWork"></div>
                 </div>
                 <div class="empty"></div>
             </div>
@@ -177,7 +172,7 @@
 
         <!-- Tools -->
         <div class="row justify-content-center align-items-center mt-5" id="reveal3">
-            <p class="myHeader5">Over the years I gathered lots of different skills and developed some serious knowledge.
+            <p class="myHeader5">Over the years, I gathered lots of different skills and developed some serious knowledge.
                 Here is a quick overview:
             </p>
             <div class="am_skills">
@@ -206,7 +201,7 @@
                 </div>
             </div>
             <div class="am_skills">
-                <div class="progress_info italic">Java</div>
+                <div class="progress_info italic">Java, OpenGL</div>
                 <div class="progress">
                     <div class="progress-value" id="progbar5"></div>
                 </div>
@@ -253,7 +248,7 @@
             <div class="hobby_wrapper col-lg-3">
                 <div class="hobby_img"><i class="far fa-futbol fa-5x"></i></div>
                 <div class="dash"></div>
-                <div class="hobby_desc">I used to play football for a club back in Stuttgart. Nowadays I am playing with my study colleagues for fun.</div>
+                <div class="hobby_desc">I used to play football for a club back in Stuttgart. Nowadays, I play with my study colleagues for fun.</div>
             </div>
             <div class="hobby_wrapper col-lg-3">
                 <div class="hobby_img"><i class="fas fa-gamepad fa-5x"></i></div>

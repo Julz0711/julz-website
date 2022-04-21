@@ -13,7 +13,23 @@ html {
     height: 100%;
 }
 
-* {
+html::before {
+    content: ' ';
+    display: block;
+    background-image: url(../img/stars.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -10;
+  }
+
+*, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,6 +40,18 @@ html {
     background: var(--color-two);
     color: var(--color-one);
     width: 100%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 #nav {
@@ -32,32 +60,34 @@ html {
     font-family: 'Share Tech Mono', sans-serif;
     font-size: 1.5rem;
 }
-
+/*
 #welcome {
     background-image: url(../img/stars.png);
     background-attachment: fixed;
     background-size: cover;
 }
-
+*/
 #aboutMe {
     background: var(--color-two);
 }
-
+/*
 #projects {
     background-image: url(../img/stars.png);
     background-attachment: fixed;
     background-size: cover;
 }
-
+*/
 #contact {
     font-size: 1.2rem;
+    background: var(--color-two);
 }
 
 .head-anim {
     font-size: 3rem;
     letter-spacing: 8px;
     font-family: 'Lovelo', sans-serif;
-    animation: neon1 3s ease-in-out infinite alternate;
+    animation: neon1 3s ease-in-out 0.01s infinite alternate;
+    -webkit-animation: neon1 3s ease-in-out 0.01s infinite alternate;
     color: var(--color-one);
     position: relative;
     transform-origin: left;
@@ -97,12 +127,13 @@ dfn {
 }
 
 @keyframes neon1 {
-    from {
-        text-shadow: 0 0 4px var(--color-secondary), 0 0 6px var(--color-secondary), 0 0 8px var(--color-secondary), 0 0 5px var(--color-secondary), 0 0 10px var(--color-secondary), 0 0 15px var(--color-secondary), 0 0 20px var(--color-secondary), 0 0 25px var(--color-secondary);
-    }
-    to {
-        text-shadow: 0 0 3px var(--color-secondary), 0 0 4px var(--color-secondary), 0 0 6px var(--color-secondary), 0 0 3px var(--color-secondary), 0 0 5px var(--color-secondary), 0 0 8px var(--color-secondary), 0 0 10px var(--color-secondary), 0 0 15px var(--color-secondary);
-    }
+    0% {text-shadow: 0 0 5px var(--color-secondary), 0 0 8px var(--color-secondary), 0 0 11px var(--color-secondary), 0 0 7px var(--color-secondary), 0 0 13px var(--color-secondary), 0 0 15px var(--color-secondary), 0 0 24px var(--color-secondary), 0 0 31px var(--color-secondary);}
+    100% {text-shadow: 0 0 3px var(--color-secondary), 0 0 4px var(--color-secondary), 0 0 6px var(--color-secondary), 0 0 3px var(--color-secondary), 0 0 5px var(--color-secondary), 0 0 8px var(--color-secondary), 0 0 10px var(--color-secondary), 0 0 15px var(--color-secondary);}
+}
+
+@keyframes neon2 {
+    from {box-shadow: var(--color-primary) 0px 0 20px -5px, var(--color-primary) 0px 5px 10px -20px;}
+    to {box-shadow: var(--color-primary) 0px 0 30px -3px, var(--color-primary) 0px 20px 50px -50px;}
 }
 
 .myHeader5 {
@@ -138,6 +169,25 @@ dfn {
     background: var(--color-one);
 }
 
+::-moz-scrollbar {
+    width: 16px;
+}
+
+::-moz-scrollbar-track {
+    background: var(--color-two);
+    border-left: 2px solid var(--color-one);
+}
+
+::-moz-scrollbar-thumb {
+    background: var(--color-secondary);
+    border-left: 2px solid var(--color-one);
+    box-shadow: inset 4px 4px 0 var(--color-two), inset -4px -4px 0 var(--color-two);
+}
+
+::-moz-scrollbar-thumb:hover {
+    background: var(--color-one);
+}
+
 .myContainer {
     max-width: 1000px;
     position: relative;
@@ -150,7 +200,7 @@ dfn {
     opacity: 0;
 }
 
-.myContent.active {
+.myContent.activeC {
     transform: translateX(0);
     opacity: 1;
 }
@@ -168,15 +218,13 @@ dfn {
 }
 
 .myBtn {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.5rem;
-    width: 160px;
-    height: 50px;
-    line-height: 50px;
+    padding: .25em 1.5em;
     border: 2px solid var(--color-primary);
     color: var(--color-two);
     background: var(--color-primary);
-    box-shadow: var(--shadow-prim-glow);
+    animation: neon2 1s ease-in-out infinite alternate;
     transition: 0.1s;
 }
 
@@ -184,7 +232,7 @@ dfn {
     color: var(--color-one);
     border: 2px solid var(--color-one);
     background: var(--color-two);
-    box-shadow: none;
+    animation: none;
     transition: 0.1s;
 }
 

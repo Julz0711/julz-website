@@ -1,3 +1,4 @@
+
 gsap.registerPlugin(ScrollTrigger);
 
 let sections = gsap.utils.toArray("section");
@@ -14,7 +15,7 @@ function initCanvas(section, canvas) {
 
     let frameCount = 54;
     const currentFrame = index => (
-        `../img/imgSeq2/${(index + 1).toString().padStart(4, '0')}.png`
+        `img/imgSeq2/${(index + 1).toString().padStart(4, '0')}.png`
     );
 
     let images = []
@@ -33,9 +34,8 @@ function initCanvas(section, canvas) {
             scrollTrigger: {
                 trigger: 'section',
                 pin: true,
-                scrub: .5,
-                end: "+=200%",
-                markers: true
+                scrub: .1,
+                end: "+=200%"
             }
         })
         .to(ship, {
@@ -68,19 +68,20 @@ reveal.forEach((text, i) => {
         trigger: text,
         toggleClass: 'active',
         start: 'top 90%',
-        end: 'top top',
-        markers: true
+        end: 'top top'
     })
 })
 
 const container = gsap.utils.toArray('.myContent');
-let end = $('myContent').height();
+//let end = $('.myContent').height();
 container.forEach((div, i) => {
     ScrollTrigger.create({
         trigger: div,
-        toggleClass: 'active',
+        toggleClass: 'activeC',
         start: 'top 75%',
-        end: end,
-        markers: true
+        end: 'bottom top'
     })
 })
+
+
+

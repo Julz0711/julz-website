@@ -2,7 +2,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-const words = ["people call me Julz.", "I study visual computing.", "I am a 3D Artist.", "I am a Web Developer.", "this is my Portfolio."];
+const words = ["I am Julz.", "I study visual computing.", "I am a 3D Artist.", "I am a Web Developer.", "this is my Portfolio."];
 
 let cursor = gsap.to('.cursor', { opacity: 0, duration: .8, ease: "power2.inOut", repeat: -1 })
 
