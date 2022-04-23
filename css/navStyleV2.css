@@ -21,7 +21,7 @@
     font-size: 1.5rem;
     transition: .2s;
     padding: 0px 32px 0px 48px;
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
 }
 
 .nav a:hover {
@@ -58,7 +58,7 @@
 .modeP {
     margin: 0;
     font-size: 1.8rem;
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
 }
 
 input[type="radio"] {
@@ -156,7 +156,7 @@ input[type="radio"]:hover+.mode-hover {
 
 label[title] {
     margin-top: 8px;
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
 }
 
 label[title]:hover:after {

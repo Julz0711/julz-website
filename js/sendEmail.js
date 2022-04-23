@@ -1,7 +1,7 @@
 function sendEmail() {
     Email.send({
         SecurityToken: "8f093a5e-3644-41f4-8bcc-ee4e694e4f1e",
-        To: 'gtkncht.business@gmail.com',
+        To: 'contact@julz.life',
         From: document.getElementById('emailAdress').value,
         Subject: "New Contact form Enquiry",
         Body: "First Name: " + document.getElementById('firstName').value +

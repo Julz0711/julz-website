@@ -85,7 +85,7 @@ html::before {
 .head-anim {
     font-size: 3rem;
     letter-spacing: 8px;
-    font-family: 'Lovelo', sans-serif;
+    font-family: Lovelo, sans-serif;
     animation: neon1 3s ease-in-out 0.01s infinite alternate;
     -webkit-animation: neon1 3s ease-in-out 0.01s infinite alternate;
     color: var(--color-one);

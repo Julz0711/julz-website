@@ -28,7 +28,7 @@
                     <label for="li-2" class="am_label mt-2 italic">Place of Residence:</label>
                     <li id="li-2">Lippstadt, NRW</li>
                     <label for="li-5" class="am_label mt-2 italic">E-Mail Adress:</label>
-                    <li id="li-5">gtkncht.business@gmail.com</li>
+                    <li id="li-5">contact@julz.life</li>
                     <label for="li-4" class="am_label mt-2 italic">Date of Birth:</label>
                     <li id="li-4">14.06.1998</li>
                     <label for="li-4" class="am_label mt-2 italic">Nationality:</label>
@@ -108,7 +108,7 @@
                             <td class="td-main">Virtual Reality Showroom with Unity3D</td>
                         </tr>
                         <tr>
-                            <td class="td_small"><i class="fas fa-map-marker-alt"></i> NetsDirekt GmbH, Stutgart</td>
+                            <td class="td_small"><i class="fas fa-map-marker-alt"></i> NetsDirekt GmbH, Stuttgart</td>
                         </tr>
                     </table>
                     <table>

@@ -48,7 +48,7 @@
 }
 
 .pj_desc h3 {
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
 }
 
 .pj_active {
@@ -79,7 +79,7 @@
 
 .modal-header {
     font-size: 2.5rem;
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
     background: var(--color-primary);
     border-bottom: 2px solid var(--color-one);
     border-radius: 0px;
@@ -98,7 +98,7 @@
 }
 
 .pj_subheader {
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
     font-size: 2rem;
     font-style: italic;
     filter: brightness(50%);
@@ -169,7 +169,7 @@
 }
 
 .pj_menu ul li a {
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
     color: var(--color-one);
     text-decoration: none;
     font-weight: 400;
@@ -254,14 +254,6 @@
     transform: translate(-50%, -60%) scale(1);
 }
 
-@media all and (max-width: 1200px) {
-    .pj_img_zoom .cl:checked~img {
-        transform: scale(1.2) translateX(0);
-    }
-    .pj_img_zoom .cr:checked~img {
-        transform: scale(1.2) translateX(0);
-    }
-}
 
 @media all and (max-width: 990px) {
     .pj_img img {
@@ -283,6 +275,12 @@
 @media all and (max-width: 1000px) {
     .inside-modal p {
         font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 

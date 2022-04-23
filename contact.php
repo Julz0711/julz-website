@@ -2,9 +2,9 @@
     <h1 class="mb-5 head-anim">Contact Me</h1>
 
     <div class="myContent">
-        <form action="https://formsubmit.co/gtkncht.business@gmail.com" method="POST" class="row g-6" id="form" autocomplete="off" />
+        <form action="https://formsubmit.co/contact@julz.life" method="POST" class="row g-6" id="form" autocomplete="off" />
         <input type="hidden" name="_subject" value="New Enquiry!">
-        <!-- <input type="hidden" name="_next" value="contactPost.php"> -->
+        <input type="hidden" name="_next" value="https://julz.life/contactPost.php">
 
         <div class="col-md-6">
             <label for="firstName" class="form-label italic">First Name</label>

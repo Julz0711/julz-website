@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Xhers';
+    src: url('../fonts/Xhers-Regular.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Lovelo;
+    src: url('../fonts/Lovelo-Line-Bold.otf');
+    font-style: normal;
+    font-weight: 100;
+}

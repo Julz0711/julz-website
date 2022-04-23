@@ -1,5 +1,5 @@
 <title>Julz Portfolio</title>
-<link rel="shortcut icon" type="image/x-icon" href="img/JulzPixelArt.png">
+<link rel="shortcut icon" type="image/png" sizes="64x64" href="img/julz-icon.png">
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +24,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
 
 <!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/introStyle.css">
 <link rel="stylesheet" type="text/css" href="css/welcomeStyle.css">
@@ -35,9 +36,5 @@
 <link rel="stylesheet" type="text/css" href="css/disclaimerStyle.css">
 <link rel="stylesheet" type="text/css" href="css/scrollMagicStyle.css">
 
-<!-- Share Tech Mono Font -->
-<link href="http://fonts.cdnfonts.com/css/share-tech-mono" rel="stylesheet">
-<!-- Xhers -->
-<link href="http://fonts.cdnfonts.com/css/xhers" rel="stylesheet">
-<!-- Lovelo -->
-<link href="http://fonts.cdnfonts.com/css/lovelo" rel="stylesheet">
+<!-- share-tech-mono -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono">

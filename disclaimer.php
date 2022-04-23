@@ -56,7 +56,7 @@
         <p>If you have any questions about this Disclaimer, You can contact Us:</p>
         <ul>
             <li>
-                <p>By email: gtkncht.business@gmail.com</p>
+                <p>By email: contact@julz.life</p>
             </li>
         </ul>
 

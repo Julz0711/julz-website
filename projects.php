@@ -470,6 +470,11 @@
                     </div>
 
                     <div class="mySpacer64"></div>
+
+                    <p>This project was created with my fellow student and good friend Markus Essing. Check out his portfolio 
+                        <a href="http://markus-essing.me">here</a>.</p>
+
+                    <div class="mySpacer64"></div>
                 </div>
             </div>
         </div>
@@ -516,6 +521,11 @@
                             <img src="img/dvl/dvl5.png" alt="The map of the haunted maze." data-original="img/dvl/dvl5.png">
                         </div>
                     </div>
+
+                    <div class="mySpacer64"></div>
+
+                    <p>This project was created with my fellow student and good friend Markus Essing. Check out his portfolio 
+                        <a href="http://markus-essing.me">here.</a></p>
 
                     <div class="mySpacer64"></div>
                 </div>

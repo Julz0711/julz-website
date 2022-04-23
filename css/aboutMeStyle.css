@@ -45,7 +45,7 @@
 
 .am_label {
     font-size: 1.2rem;
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
 }
 
 .am_infos {
@@ -173,7 +173,7 @@ table td {
     font-style: italic;
     filter: brightness(50%);
     font-size: 1.1rem;
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
 }
 
 
@@ -195,7 +195,7 @@ table td {
 }
 
 .progress_info {
-    font-family: 'Xhers', sans-serif;
+    font-family: Xhers, sans-serif;
     font-size: 1.2rem;
     margin-left: 8px;
     margin-bottom: 4px;
@@ -452,7 +452,7 @@ table td {
         font-style: italic;
         filter: brightness(50%);
         font-size: 2rem;
-        font-family: 'Xhers', sans-serif;
+        font-family: Xhers, sans-serif;
     }
     .barBehind {
         filter: blur(10px);
